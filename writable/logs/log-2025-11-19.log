@@ -1,0 +1,202 @@
+CRITICAL - 2025-11-19 13:23:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 13:23:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 13:23:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 13:23:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 13:23:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 13:23:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 13:23:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 13:23:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: items_orden/943]
+in APPPATH/Controllers/ItemsOrden.php on line 17.
+ 1 APPPATH/Controllers/ItemsOrden.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/ItemsOrden.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\ItemsOrden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 13:23:29 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: items_orden/943]
+in APPPATH/Controllers/ItemsOrden.php on line 17.
+ 1 APPPATH/Controllers/ItemsOrden.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/ItemsOrden.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\ItemsOrden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 13:23:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: items_orden/943]
+in APPPATH/Controllers/ItemsOrden.php on line 17.
+ 1 APPPATH/Controllers/ItemsOrden.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/ItemsOrden.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\ItemsOrden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-19 14:32:46 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/BodegasModel.php(27): CodeIgniter\BaseModel->findAll()
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php(29): App\Models\BodegasModel->getBodegasHabilitadas()
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Reporte->index()
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/BodegasModel.php(27): CodeIgniter\BaseModel->findAll()
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php(29): App\Models\BodegasModel->getBodegasHabilitadas()
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Reporte->index()
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-11-19 14:32:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: reporte]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+WHERE `estado_bodega` = :estado_bodega:', [...], false)
+ 3 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/BodegasModel.php(27): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Reporte.php(29): App\Models\BodegasModel->getBodegasHabilitadas()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 14:43:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 14:52:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 14:52:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 16:29:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: bodega]
+in APPPATH/Controllers/Bodega.php on line 11.
+ 1 APPPATH/Controllers/Bodega.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php', 11)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Bodega->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 16:30:34 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: bodega/gestionarBodega/1]
+in APPPATH/Controllers/Bodega.php on line 11.
+ 1 APPPATH/Controllers/Bodega.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php', 11)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Bodega->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

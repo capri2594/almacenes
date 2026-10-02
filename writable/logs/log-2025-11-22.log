@@ -1,0 +1,20 @@
+CRITICAL - 2025-11-22 15:26:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: adquisicion_producto_tiene_app/generar_saldos/2]
+in APPPATH/Controllers/AdquisicionProductoTieneApp.php on line 13.
+ 1 APPPATH/Controllers/AdquisicionProductoTieneApp.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/AdquisicionProductoTieneApp.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AdquisicionProductoTieneApp->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 15:27:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: adquisicion_producto_tiene_app/2]
+in APPPATH/Controllers/AdquisicionProductoTieneApp.php on line 13.
+ 1 APPPATH/Controllers/AdquisicionProductoTieneApp.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/AdquisicionProductoTieneApp.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\AdquisicionProductoTieneApp->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

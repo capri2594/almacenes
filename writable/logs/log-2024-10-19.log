@@ -1,0 +1,351 @@
+INFO - 2024-10-19 20:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 20:45:01 --> CSRF token verified.
+INFO - 2024-10-19 20:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-19 20:45:01 --> ErrorException: Undefined array key "message"
+[Method: POST, Route: inicio/login]
+in APPPATH\Controllers\Inicio.php on line 91.
+ 1 APPPATH\Controllers\Inicio.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "message"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Inicio.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 20:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 20:47:27 --> CSRF token verified.
+INFO - 2024-10-19 20:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-19 20:47:28 --> ErrorException: Undefined array key "message"
+[Method: POST, Route: inicio/login]
+in APPPATH\Controllers\Inicio.php on line 91.
+ 1 APPPATH\Controllers\Inicio.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "message"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Inicio.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 20:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 20:56:17 --> CSRF token verified.
+CRITICAL - 2024-10-19 20:56:18 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: inicio/login]
+in APPPATH\Controllers\Inicio.php on line 56.
+ 1 APPPATH\Controllers\Inicio.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Inicio.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 20:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 20:57:29 --> CSRF token verified.
+CRITICAL - 2024-10-19 20:57:30 --> ErrorException: Undefined array key "id_usuario"
+[Method: POST, Route: inicio/login]
+in APPPATH\Controllers\Inicio.php on line 56.
+ 1 APPPATH\Controllers\Inicio.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_usuario"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Inicio.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 20:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 20:58:40 --> CSRF token verified.
+CRITICAL - 2024-10-19 21:00:18 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: inicio/login]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('inicio/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:00:28 --> CSRF token verified.
+CRITICAL - 2024-10-19 21:00:38 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: inicio/login]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('inicio/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:00:58 --> CSRF token verified.
+INFO - 2024-10-19 21:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:01:31 --> CSRF token verified.
+CRITICAL - 2024-10-19 21:01:32 --> ErrorException: Undefined array key "id_usuario"
+[Method: POST, Route: inicio/login]
+in APPPATH\Controllers\Inicio.php on line 54.
+ 1 APPPATH\Controllers\Inicio.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_usuario"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Inicio.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:01:58 --> CSRF token verified.
+INFO - 2024-10-19 21:02:35 --> CSRF token verified.
+INFO - 2024-10-19 21:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:02:45 --> CSRF token verified.
+CRITICAL - 2024-10-19 21:03:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: inicio/login]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('inicio/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:03:25 --> CSRF token verified.
+INFO - 2024-10-19 21:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:03:48 --> CSRF token verified.
+CRITICAL - 2024-10-19 21:04:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: inicio/login]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('inicio/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:04:24 --> CSRF token verified.
+INFO - 2024-10-19 21:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:07:34 --> CSRF token verified.
+INFO - 2024-10-19 21:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:20:07 --> CSRF token verified.
+ERROR - 2024-10-19 21:20:08 --> mysqli_sql_exception: Unknown column 'recursos.username' in 'where clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, 'juan.perez@gmai...')
+#6 C:\laragon\www\gador_warehouse\app\Models\RecursosModel.php(26): CodeIgniter\BaseModel->find('juan.perez@gmai...')
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Inicio.php(60): App\Models\RecursosModel->getRecurso('juan.perez@gmai...')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Inicio->login()
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-19 21:20:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'recursos.username' in 'where clause'
+[Method: POST, Route: inicio/login]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `recursos`
+WHERE `recursos`.`username` = :recursos.username:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 'juan.perez@gmail.com')
+ 4 APPPATH\Models\RecursosModel.php(26): CodeIgniter\BaseModel->find('juan.perez@gmail.com')
+ 5 APPPATH\Controllers\Inicio.php(60): App\Models\RecursosModel->getRecurso('juan.perez@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-19 21:20:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'recursos.username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `recursos`
+WHERE `recursos`.`username` = \'juan.perez@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `recursos`
+WHERE `recursos`.`username` = \'juan.perez@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `recursos`
+WHERE `recursos`.`username` = :recursos.username:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 'juan.perez@gmail.com')
+ 6 APPPATH\Models\RecursosModel.php(26): CodeIgniter\BaseModel->find('juan.perez@gmail.com')
+ 7 APPPATH\Controllers\Inicio.php(60): App\Models\RecursosModel->getRecurso('juan.perez@gmail.com')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->login()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-19 21:20:08 --> [Caused by] mysqli_sql_exception: Unknown column 'recursos.username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `recursos`
+WHERE `recursos`.`username` = \'juan.perez@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `recursos`
+WHERE `recursos`.`username` = \'juan.perez@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `recursos`
+WHERE `recursos`.`username` = \'juan.perez@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `recursos`
+WHERE `recursos`.`username` = :recursos.username:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 'juan.perez@gmail.com')
+ 7 APPPATH\Models\RecursosModel.php(26): CodeIgniter\BaseModel->find('juan.perez@gmail.com')
+ 8 APPPATH\Controllers\Inicio.php(60): App\Models\RecursosModel->getRecurso('juan.perez@gmail.com')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->login()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:21:19 --> CSRF token verified.
+INFO - 2024-10-19 21:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:25:40 --> CSRF token verified.
+INFO - 2024-10-19 21:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:25:54 --> CSRF token verified.
+INFO - 2024-10-19 21:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-19 21:25:54 --> ErrorException: Undefined array key "isFailure"
+[Method: POST, Route: inicio/login]
+in APPPATH\Controllers\Inicio.php on line 96.
+ 1 APPPATH\Controllers\Inicio.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "isFailure"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Inicio.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:26:20 --> CSRF token verified.
+INFO - 2024-10-19 21:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:27:07 --> CSRF token verified.
+INFO - 2024-10-19 21:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:27:14 --> CSRF token verified.
+INFO - 2024-10-19 21:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-19 21:29:56 --> ErrorException: Undefined variable $session
+[Method: GET, Route: inicio/bienvenido]
+in APPPATH\Views\plantillas\layout.php on line 479.
+ 1 APPPATH\Views\plantillas\layout.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\plantillas\\layout.php', 479)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio/bienvenido', [], true)
+ 6 APPPATH\Controllers\Inicio.php(106): view('inicio/bienvenido')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->bienvenido()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-19 21:31:09 --> ErrorException: Undefined variable $session
+[Method: GET, Route: inicio/bienvenido]
+in APPPATH\Views\plantillas\layout.php on line 479.
+ 1 APPPATH\Views\plantillas\layout.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\plantillas\\layout.php', 479)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio/bienvenido', [], true)
+ 6 APPPATH\Controllers\Inicio.php(106): view('inicio/bienvenido')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->bienvenido()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-19 21:31:56 --> ErrorException: Undefined variable $session
+[Method: GET, Route: inicio/bienvenido]
+in APPPATH\Views\plantillas\layout.php on line 479.
+ 1 APPPATH\Views\plantillas\layout.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\plantillas\\layout.php', 479)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio/bienvenido', [], true)
+ 6 APPPATH\Controllers\Inicio.php(106): view('inicio/bienvenido')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->bienvenido()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-19 21:32:26 --> ErrorException: Undefined variable $session
+[Method: GET, Route: inicio/bienvenido]
+in APPPATH\Views\plantillas\layout.php on line 479.
+ 1 APPPATH\Views\plantillas\layout.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\plantillas\\layout.php', 479)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio/bienvenido', [], true)
+ 6 APPPATH\Controllers\Inicio.php(106): view('inicio/bienvenido')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->bienvenido()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-19 21:35:04 --> ErrorException: Undefined variable $session
+[Method: GET, Route: inicio/bienvenido]
+in APPPATH\Views\plantillas\layout.php on line 479.
+ 1 APPPATH\Views\plantillas\layout.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\plantillas\\layout.php', 479)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio/bienvenido', [], true)
+ 6 APPPATH\Controllers\Inicio.php(106): view('inicio/bienvenido')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->bienvenido()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-19 21:35:48 --> ErrorException: Undefined variable $session
+[Method: GET, Route: inicio/bienvenido]
+in APPPATH\Views\plantillas\layout.php on line 479.
+ 1 APPPATH\Views\plantillas\layout.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\plantillas\\layout.php', 479)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio/bienvenido', [], true)
+ 6 APPPATH\Controllers\Inicio.php(106): view('inicio/bienvenido')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Inicio->bienvenido()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-19 21:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:39:11 --> CSRF token verified.
+INFO - 2024-10-19 21:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-19 21:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

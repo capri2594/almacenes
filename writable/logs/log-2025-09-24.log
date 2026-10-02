@@ -1,0 +1,131 @@
+CRITICAL - 2025-09-24 05:41:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte/consolidado]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 08:34:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 09:32:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 09:45:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 09:45:33 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 11:02:45 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/11]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('11')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 12:24:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 14:57:55 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/1]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 16:18:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 16:19:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden/imprimir_solicitud_aprobada/591]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 16:20:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte/catalogo_usuario]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 17:20:06 --> Error: Call to undefined function tipoDocumento()
+[Method: GET, Route: ingreso_salida/2]
+in APPPATH/Views/ingreso_salida/index.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('ingreso_salida/index', [], true)
+ 4 APPPATH/Controllers/IngresoSalida.php(49): view('ingreso_salida/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\IngresoSalida->index('2')
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalida))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

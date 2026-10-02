@@ -1,0 +1,23 @@
+.modal-header .modal-body{
+	background-color: #F9FAFB;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #ccc;
+	opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #ccc;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+	color: #ccc;
+}
+td .texto-derecha{
+    float: right;
+}
+
+.main-content{
+	background:no-repeat url('assets/static/images/bg-gral.jpg');
+	background-size: cover;
+}

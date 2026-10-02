@@ -1,0 +1,10 @@
+CRITICAL - 2025-12-26 09:20:34 --> ErrorException: Undefined variable $data
+[Method: GET, Route: reporte/consolidado]
+in APPPATH/Controllers/Reporte.php on line 157.
+ 1 APPPATH/Controllers/Reporte.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 157)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

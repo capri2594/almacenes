@@ -1,0 +1,682 @@
+INFO - 2024-12-20 13:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 13:41:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH\Controllers\Reporte.php on line 16.
+ 1 APPPATH\Controllers\Reporte.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Reporte.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 13:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:47:46 --> CSRF token verified.
+INFO - 2024-12-20 13:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:48:00 --> CSRF token verified.
+INFO - 2024-12-20 13:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:48:06 --> CSRF token verified.
+INFO - 2024-12-20 13:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:55:31 --> CSRF token verified.
+INFO - 2024-12-20 13:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:56:17 --> CSRF token verified.
+INFO - 2024-12-20 13:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:56:54 --> CSRF token verified.
+INFO - 2024-12-20 13:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 13:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:01:46 --> CSRF token verified.
+INFO - 2024-12-20 14:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:02:48 --> CSRF token verified.
+INFO - 2024-12-20 14:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 14:02:48 --> ErrorException: Undefined array key "id_producto"
+[Method: POST, Route: reporte/consolidado]
+in APPPATH\Controllers\Reporte.php on line 103.
+ 1 APPPATH\Controllers\Reporte.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_producto"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Reporte.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:03:54 --> CSRF token verified.
+INFO - 2024-12-20 14:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 14:03:54 --> ErrorException: Undefined array key "id_producto"
+[Method: POST, Route: reporte/consolidado]
+in APPPATH\Controllers\Reporte.php on line 103.
+ 1 APPPATH\Controllers\Reporte.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_producto"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Reporte.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:03:59 --> CSRF token verified.
+INFO - 2024-12-20 14:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 14:03:59 --> ErrorException: Undefined array key "id_producto"
+[Method: POST, Route: reporte/consolidado]
+in APPPATH\Controllers\Reporte.php on line 103.
+ 1 APPPATH\Controllers\Reporte.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_producto"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Reporte.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:04:10 --> CSRF token verified.
+INFO - 2024-12-20 14:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 14:04:10 --> ErrorException: Undefined array key "id_productos"
+[Method: POST, Route: reporte/consolidado]
+in APPPATH\Controllers\Reporte.php on line 104.
+ 1 APPPATH\Controllers\Reporte.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_productos"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Reporte.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:04:20 --> CSRF token verified.
+INFO - 2024-12-20 14:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 14:04:32 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: reporte/consolidado]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('reporte/consolidado', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:04:36 --> CSRF token verified.
+INFO - 2024-12-20 14:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 14:11:11 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: reporte/consolidado]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('reporte/consolidado', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:11:15 --> CSRF token verified.
+INFO - 2024-12-20 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:11:54 --> CSRF token verified.
+INFO - 2024-12-20 14:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:13:45 --> CSRF token verified.
+INFO - 2024-12-20 14:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:18:18 --> CSRF token verified.
+INFO - 2024-12-20 14:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 14:18:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: reporte/consolidado]
+in APPPATH\Controllers\Reporte.php on line 116.
+ 1 APPPATH\Controllers\Reporte.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Reporte.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:18:51 --> CSRF token verified.
+INFO - 2024-12-20 14:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:20:20 --> CSRF token verified.
+INFO - 2024-12-20 14:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:22:01 --> CSRF token verified.
+INFO - 2024-12-20 14:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 14:22:01 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: reporte/consolidado]
+in APPPATH\Controllers\Reporte.php on line 111.
+ 1 APPPATH\Controllers\Reporte.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Reporte.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:22:32 --> CSRF token verified.
+INFO - 2024-12-20 14:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:24:17 --> CSRF token verified.
+INFO - 2024-12-20 14:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 14:24:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: reporte/consolidado]
+in APPPATH\Controllers\Reporte.php on line 111.
+ 1 APPPATH\Controllers\Reporte.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Reporte.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:24:57 --> CSRF token verified.
+INFO - 2024-12-20 14:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:25:06 --> CSRF token verified.
+INFO - 2024-12-20 14:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:26:06 --> CSRF token verified.
+INFO - 2024-12-20 14:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:27:18 --> CSRF token verified.
+INFO - 2024-12-20 14:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:27:48 --> CSRF token verified.
+INFO - 2024-12-20 14:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:51:45 --> CSRF token verified.
+INFO - 2024-12-20 14:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-20 14:51:45 --> mysqli_sql_exception: Unknown column 'cat_ingreso' in 'field list' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT SUM(`cat...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`cat...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`cat...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cat...', Array, false)
+#4 C:\laragon\www\gador_warehouse\app\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\app\Controllers\Reporte.php(110): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cat_ingreso')
+#6 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+#7 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-20 14:51:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'cat_ingreso' in 'field list'
+[Method: POST, Route: reporte/consolidado]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = :id_producto:', [...], false)
+ 2 APPPATH\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Reporte.php(110): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cat_ingreso')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:51:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'cat_ingreso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = :id_producto:', [...], false)
+ 4 APPPATH\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Reporte.php(110): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cat_ingreso')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:51:45 --> [Caused by] mysqli_sql_exception: Unknown column 'cat_ingreso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = :id_producto:', [...], false)
+ 5 APPPATH\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Reporte.php(110): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cat_ingreso')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:52:29 --> CSRF token verified.
+INFO - 2024-12-20 14:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 14:52:29 --> ErrorException: Undefined property: stdClass::$cant_existente
+[Method: POST, Route: reporte/consolidado]
+in APPPATH\Models\AdquisicionProductoModel.php on line 94.
+ 1 APPPATH\Models\AdquisicionProductoModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$cant_existente', 'C:\\laragon\\www\\gador_warehouse\\app\\Models\\AdquisicionProductoModel.php', 94)
+ 2 APPPATH\Controllers\Reporte.php(110): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cat_ingreso')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:53:03 --> CSRF token verified.
+INFO - 2024-12-20 14:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:53:32 --> CSRF token verified.
+INFO - 2024-12-20 14:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-20 14:53:32 --> mysqli_sql_exception: Unknown column 'cat_ingreso' in 'field list' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT SUM(`cat...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`cat...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`cat...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cat...', Array, false)
+#4 C:\laragon\www\gador_warehouse\app\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\app\Controllers\Reporte.php(110): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cat_ingreso')
+#6 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+#7 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-20 14:53:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'cat_ingreso' in 'field list'
+[Method: POST, Route: reporte/consolidado]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = :id_producto:', [...], false)
+ 2 APPPATH\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Reporte.php(110): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cat_ingreso')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:53:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'cat_ingreso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = :id_producto:', [...], false)
+ 4 APPPATH\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Reporte.php(110): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cat_ingreso')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:53:32 --> [Caused by] mysqli_sql_exception: Unknown column 'cat_ingreso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cat_ingreso`) AS `cat_ingreso`
+FROM `adquisicion_producto`
+WHERE `id_producto` = :id_producto:', [...], false)
+ 5 APPPATH\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Reporte.php(110): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cat_ingreso')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:53:56 --> CSRF token verified.
+INFO - 2024-12-20 14:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:56:11 --> CSRF token verified.
+INFO - 2024-12-20 14:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-20 14:56:11 --> mysqli_sql_exception: Unknown column 'cant_dalida' in 'field list' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT SUM(`can...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`can...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`can...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`can...', Array, false)
+#4 C:\laragon\www\gador_warehouse\app\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\app\Controllers\Reporte.php(113): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cant_dalida')
+#6 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+#7 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-20 14:56:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'cant_dalida' in 'field list'
+[Method: POST, Route: reporte/consolidado]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = :id_producto:', [...], false)
+ 2 APPPATH\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Reporte.php(113): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cant_dalida')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:56:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'cant_dalida' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = :id_producto:', [...], false)
+ 4 APPPATH\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Reporte.php(113): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cant_dalida')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:56:11 --> [Caused by] mysqli_sql_exception: Unknown column 'cant_dalida' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = :id_producto:', [...], false)
+ 5 APPPATH\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Reporte.php(113): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cant_dalida')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:56:27 --> CSRF token verified.
+INFO - 2024-12-20 14:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-20 14:56:27 --> mysqli_sql_exception: Unknown column 'cant_dalida' in 'field list' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT SUM(`can...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`can...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`can...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`can...', Array, false)
+#4 C:\laragon\www\gador_warehouse\app\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\app\Controllers\Reporte.php(113): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cant_dalida')
+#6 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+#7 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-20 14:56:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'cant_dalida' in 'field list'
+[Method: POST, Route: reporte/consolidado]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = :id_producto:', [...], false)
+ 2 APPPATH\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Reporte.php(113): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cant_dalida')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:56:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'cant_dalida' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = :id_producto:', [...], false)
+ 4 APPPATH\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Reporte.php(113): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cant_dalida')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:56:27 --> [Caused by] mysqli_sql_exception: Unknown column 'cant_dalida' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = \'7\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`cant_dalida`) AS `cant_dalida`
+FROM `adquisicion_producto`
+WHERE `id_producto` = :id_producto:', [...], false)
+ 5 APPPATH\Models\AdquisicionProductoModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Reporte.php(113): App\Models\AdquisicionProductoModel->getSumColumnByProducto('7', 'cant_dalida')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 14:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:56:49 --> CSRF token verified.
+INFO - 2024-12-20 14:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:58:14 --> CSRF token verified.
+INFO - 2024-12-20 14:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:58:38 --> CSRF token verified.
+INFO - 2024-12-20 14:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:58:59 --> CSRF token verified.
+INFO - 2024-12-20 14:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 14:59:03 --> CSRF token verified.
+INFO - 2024-12-20 14:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:09:38 --> CSRF token verified.
+INFO - 2024-12-20 15:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:16:11 --> CSRF token verified.
+INFO - 2024-12-20 15:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 15:16:12 --> BadMethodCallException: Call to undefined method App\Models\ProductoModel::getBodega
+[Method: POST, Route: reporte/consolidado]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Reporte.php(132): CodeIgniter\Model->__call('getBodega', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 15:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:17:11 --> CSRF token verified.
+INFO - 2024-12-20 15:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 15:17:11 --> ErrorException: Undefined variable $data
+[Method: POST, Route: reporte/consolidado]
+in APPPATH\Views\reporte\imprimir_valorado.php on line 74.
+ 1 APPPATH\Views\reporte\imprimir_valorado.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\reporte\\imprimir_valorado.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\reporte\\imprimir_valorado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_valorado', [], true)
+ 5 APPPATH\Controllers\Reporte.php(138): view('reporte/imprimir_valorado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reporte->consolidado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 15:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:17:55 --> CSRF token verified.
+INFO - 2024-12-20 15:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 15:17:55 --> ErrorException: unlink(C:\laragon\www\gador_warehouse\writable\debugbar/debugbar_1734721009.959384.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\laragon\\www\\gador_warehouse\\writable\\debugbar/debugbar_1734721009.959384.json): No such file or directory', 'C:\\laragon\\www\\gador_warehouse\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('C:\\laragon\\www\\gador_warehouse\\writable\\debugbar/debugbar_1734721009.959384.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(520): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734722275.665178', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 15:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:18:29 --> CSRF token verified.
+INFO - 2024-12-20 15:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 15:18:30 --> ErrorException: unlink(C:\laragon\www\gador_warehouse\writable\debugbar/debugbar_1734721094.756314.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\laragon\\www\\gador_warehouse\\writable\\debugbar/debugbar_1734721094.756314.json): No such file or directory', 'C:\\laragon\\www\\gador_warehouse\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('C:\\laragon\\www\\gador_warehouse\\writable\\debugbar/debugbar_1734721094.756314.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(520): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734722309.918626', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 15:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:19:20 --> CSRF token verified.
+INFO - 2024-12-20 15:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 15:19:20 --> ErrorException: unlink(C:\laragon\www\gador_warehouse\writable\debugbar/debugbar_1734721118.656136.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\laragon\\www\\gador_warehouse\\writable\\debugbar/debugbar_1734721118.656136.json): No such file or directory', 'C:\\laragon\\www\\gador_warehouse\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('C:\\laragon\\www\\gador_warehouse\\writable\\debugbar/debugbar_1734721118.656136.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(520): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734722360.632523', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 15:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:20:42 --> CSRF token verified.
+INFO - 2024-12-20 15:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 15:20:42 --> ErrorException: unlink(C:\laragon\www\gador_warehouse\writable\debugbar/debugbar_1734721139.688521.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\laragon\\www\\gador_warehouse\\writable\\debugbar/debugbar_1734721139.688521.json): No such file or directory', 'C:\\laragon\\www\\gador_warehouse\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('C:\\laragon\\www\\gador_warehouse\\writable\\debugbar/debugbar_1734721139.688521.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(520): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734722442.273066', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-20 15:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:21:01 --> CSRF token verified.
+INFO - 2024-12-20 15:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:21:15 --> CSRF token verified.
+INFO - 2024-12-20 15:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:21:29 --> CSRF token verified.
+INFO - 2024-12-20 15:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 15:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-20 15:21:30 --> ErrorException: unlink(C:\laragon\www\gador_warehouse\writable\debugbar/debugbar_1734722273.816971.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\laragon\\www\\gador_warehouse\\writable\\debugbar/debugbar_1734722273.816971.json): No such file or directory', 'C:\\laragon\\www\\gador_warehouse\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('C:\\laragon\\www\\gador_warehouse\\writable\\debugbar/debugbar_1734722273.816971.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(520): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734722490.089432', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,216 @@
+CRITICAL - 2024-07-01 23:09:18 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-01 23:14:18 --> ParseError: syntax error, unexpected token "=>", expecting "]"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-01 23:18:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\gador_warehouse\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\gador_warehouse\app\Controllers\Home.php(19): App\Models\BodegasModel->createBodega(Array)
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#3 C:\laragon\www\gador_warehouse\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\laragon\www\gador_warehouse\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#5 C:\laragon\www\gador_warehouse\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(32): CodeIgniter\Model->insert(Array)
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Home.php(19): App\Models\BodegasModel->createBodega(Array)
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-01 23:18:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bodegas` (`nombre_bodega`, `direccion_bodega`, `estado_bodega`, `recurso_id`, `created_at`, `updated_at`) VALUES (:nombre_bodega:, :direccion_bodega:, :estado_bodega:, :recurso_id:, :created_at:, :updated_at:)', [...], false)
+ 3 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Models\BodegasModel.php(32): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Controllers\Home.php(19): App\Models\BodegasModel->createBodega([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-01 23:19:19 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'bodegas' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'bodegas', 3306, '', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\gador_warehouse\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\gador_warehouse\app\Controllers\Home.php(19): App\Models\BodegasModel->createBodega(Array)
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'bodegas' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#3 C:\laragon\www\gador_warehouse\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\laragon\www\gador_warehouse\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#5 C:\laragon\www\gador_warehouse\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(32): CodeIgniter\Model->insert(Array)
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Home.php(19): App\Models\BodegasModel->createBodega(Array)
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-07-01 23:19:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'bodegas'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bodegas` (`nombre_bodega`, `direccion_bodega`, `estado_bodega`, `recurso_id`, `created_at`, `updated_at`) VALUES (:nombre_bodega:, :direccion_bodega:, :estado_bodega:, :recurso_id:, :created_at:, :updated_at:)', [...], false)
+ 3 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Models\BodegasModel.php(32): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Controllers\Home.php(19): App\Models\BodegasModel->createBodega([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-01 23:23:57 --> mysqli_sql_exception: Unknown column 'bodegas.id' in 'where clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('UPDATE `bodegas...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `bodegas...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `bodegas...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query('UPDATE `bodegas...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\laragon\www\gador_warehouse\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(37): CodeIgniter\Model->update(1, Array)
+#8 C:\laragon\www\gador_warehouse\app\Controllers\Home.php(20): App\Models\BodegasModel->updateBodega(1, Array)
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-07-01 23:23:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bodegas.id' in 'where clause'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query('UPDATE `bodegas` SET `nombre_bodega` = :nombre_bodega:, `direccion_bodega` = :direccion_bodega:, `estado_bodega` = :estado_bodega:, `recurso_id` = :recurso_id:, `updated_at` = :updated_at:
+WHERE `bodegas`.`id` IN :bodegas.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Models\BodegasModel.php(37): CodeIgniter\Model->update(1, [...])
+ 6 APPPATH\Controllers\Home.php(20): App\Models\BodegasModel->updateBodega(1, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-01 23:23:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bodegas.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `bodegas` SET `nombre_bodega` = \'Bodega 2\', `direccion_bodega` = \'Calle 2\', `estado_bodega` = 1, `recurso_id` = 1, `updated_at` = \'2024-07-01 23:23:57\'
+WHERE `bodegas`.`id` IN (1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `bodegas` SET `nombre_bodega` = \'Bodega 2\', `direccion_bodega` = \'Calle 2\', `estado_bodega` = 1, `recurso_id` = 1, `updated_at` = \'2024-07-01 23:23:57\'
+WHERE `bodegas`.`id` IN (1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query('UPDATE `bodegas` SET `nombre_bodega` = :nombre_bodega:, `direccion_bodega` = :direccion_bodega:, `estado_bodega` = :estado_bodega:, `recurso_id` = :recurso_id:, `updated_at` = :updated_at:
+WHERE `bodegas`.`id` IN :bodegas.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Models\BodegasModel.php(37): CodeIgniter\Model->update(1, [...])
+ 8 APPPATH\Controllers\Home.php(20): App\Models\BodegasModel->updateBodega(1, [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-01 23:23:57 --> [Caused by] mysqli_sql_exception: Unknown column 'bodegas.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('UPDATE `bodegas` SET `nombre_bodega` = \'Bodega 2\', `direccion_bodega` = \'Calle 2\', `estado_bodega` = 1, `recurso_id` = 1, `updated_at` = \'2024-07-01 23:23:57\'
+WHERE `bodegas`.`id` IN (1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `bodegas` SET `nombre_bodega` = \'Bodega 2\', `direccion_bodega` = \'Calle 2\', `estado_bodega` = 1, `recurso_id` = 1, `updated_at` = \'2024-07-01 23:23:57\'
+WHERE `bodegas`.`id` IN (1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `bodegas` SET `nombre_bodega` = \'Bodega 2\', `direccion_bodega` = \'Calle 2\', `estado_bodega` = 1, `recurso_id` = 1, `updated_at` = \'2024-07-01 23:23:57\'
+WHERE `bodegas`.`id` IN (1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query('UPDATE `bodegas` SET `nombre_bodega` = :nombre_bodega:, `direccion_bodega` = :direccion_bodega:, `estado_bodega` = :estado_bodega:, `recurso_id` = :recurso_id:, `updated_at` = :updated_at:
+WHERE `bodegas`.`id` IN :bodegas.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Models\BodegasModel.php(37): CodeIgniter\Model->update(1, [...])
+ 9 APPPATH\Controllers\Home.php(20): App\Models\BodegasModel->updateBodega(1, [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-01 23:29:53 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 923.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(20): CodeIgniter\Model->__call('updateBodega', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

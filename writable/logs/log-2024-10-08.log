@@ -1,0 +1,1407 @@
+INFO - 2024-10-08 02:54:58 --> CSRF token verified.
+CRITICAL - 2024-10-08 02:57:44 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: bodega/crear]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('bodega/crear', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-08 02:58:00 --> CSRF token verified.
+CRITICAL - 2024-10-08 02:58:48 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: bodega/crear]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('bodega/crear', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-08 02:58:55 --> CSRF token verified.
+INFO - 2024-10-08 02:59:51 --> CSRF token verified.
+INFO - 2024-10-08 03:05:42 --> CSRF token verified.
+INFO - 2024-10-08 03:06:19 --> CSRF token verified.
+INFO - 2024-10-08 03:08:32 --> CSRF token verified.
+INFO - 2024-10-08 03:13:31 --> CSRF token verified.
+INFO - 2024-10-08 03:19:51 --> CSRF token verified.
+INFO - 2024-10-08 03:31:36 --> CSRF token verified.
+INFO - 2024-10-08 03:37:39 --> CSRF token verified.
+INFO - 2024-10-08 03:51:51 --> CSRF token verified.
+INFO - 2024-10-08 03:54:33 --> CSRF token verified.
+INFO - 2024-10-08 13:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 13:10:19 --> CSRF token verified.
+INFO - 2024-10-08 13:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 13:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 15:21:58 --> CSRF token verified.
+CRITICAL - 2024-10-08 15:22:49 --> ErrorException: Undefined variable $bodega
+[Method: GET, Route: bodega/editar/1]
+in APPPATH\Views\bodega\editar.php on line 5.
+ 1 APPPATH\Views\bodega\editar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\bodega\\editar.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\bodega\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bodega/editar', [], true)
+ 5 APPPATH\Controllers\Bodega.php(50): view('bodega/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-08 15:40:06 --> CSRF token verified.
+INFO - 2024-10-08 15:40:15 --> CSRF token verified.
+INFO - 2024-10-08 15:41:49 --> CSRF token verified.
+INFO - 2024-10-08 15:42:04 --> CSRF token verified.
+INFO - 2024-10-08 15:42:28 --> CSRF token verified.
+INFO - 2024-10-08 22:00:51 --> CSRF token verified.
+INFO - 2024-10-08 22:01:01 --> CSRF token verified.
+INFO - 2024-10-08 22:01:17 --> CSRF token verified.
+ERROR - 2024-10-08 22:01:21 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '7')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:01:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/7]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '7')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:01:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '7')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:01:21 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '7')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:01:27 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:01:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:01:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:01:27 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:01:43 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '1')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:01:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:01:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:01:43 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '1')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:01:53 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '4')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:01:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:01:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '4')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:01:53 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '4')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:06:07 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:06:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:06:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:06:07 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:06:16 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '1')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:06:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:06:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:06:16 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '1')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:06:36 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:06:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:06:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:06:36 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:07:04 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:07:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:07:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:07:04 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:07:28 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:07:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:07:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:07:28 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '2')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:07:35 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '3')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:07:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:07:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '3')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:07:35 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '3')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:07:39 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '8')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:07:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:07:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:07:39 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:09:26 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '8')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:09:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:09:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:09:26 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:10:21 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '8')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:10:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:10:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '8')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:10:21 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '8')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:11:53 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '7')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:11:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/7]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '7')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:11:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '7')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:11:53 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '7')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:12:40 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '3')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:12:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:12:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '3')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:12:40 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '3')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:17:52 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '3')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:17:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:17:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '3')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:17:52 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '3')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-08 22:18:03 --> mysqli_sql_exception: Unknown column 'editar' in 'order clause' in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\gador_warehouse\app\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\gador_warehouse\app\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+#8 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '1')
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-08 22:18:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+[Method: GET, Route: bodega/editar/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:18:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 22:18:03 --> [Caused by] mysqli_sql_exception: Unknown column 'editar' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+ORDER BY `editar` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BodegasModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Bodega.php(21): App\Models\BodegasModel->getBodegas('editar')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bodega->index('editar', '1')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-08 22:20:56 --> CSRF token verified.
+INFO - 2024-10-08 22:21:38 --> CSRF token verified.
+INFO - 2024-10-08 22:21:50 --> CSRF token verified.
+INFO - 2024-10-08 22:22:03 --> CSRF token verified.
+INFO - 2024-10-08 22:22:10 --> CSRF token verified.
+INFO - 2024-10-08 22:22:40 --> CSRF token verified.
+INFO - 2024-10-08 22:22:47 --> CSRF token verified.
+INFO - 2024-10-08 22:24:04 --> CSRF token verified.
+INFO - 2024-10-08 22:24:14 --> CSRF token verified.
+INFO - 2024-10-08 22:24:22 --> CSRF token verified.
+INFO - 2024-10-08 22:24:29 --> CSRF token verified.
+INFO - 2024-10-08 22:24:36 --> CSRF token verified.
+INFO - 2024-10-08 22:24:42 --> CSRF token verified.
+INFO - 2024-10-08 22:24:49 --> CSRF token verified.
+INFO - 2024-10-08 22:24:56 --> CSRF token verified.
+INFO - 2024-10-08 22:25:02 --> CSRF token verified.
+INFO - 2024-10-08 22:25:08 --> CSRF token verified.

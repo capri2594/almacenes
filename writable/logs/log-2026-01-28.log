@@ -1,0 +1,145 @@
+INFO - 2026-01-28 01:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 06:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 10:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 10:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 12:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:29:35 --> CSRF token verified.
+INFO - 2026-01-28 14:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-28 14:34:15 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/gador.factozz.com/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/gador.factozz.com/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/gador.factozz.com/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/gador.factozz.com/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/gador.factozz.com/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/gador.factozz.com/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/gador.factozz.com/system/BaseModel.php(610): CodeIgniter\Model->doFind(true, '2')
+#6 /home2/usoabumg/public_html/gador.factozz.com/app/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('2')
+#7 /home2/usoabumg/public_html/gador.factozz.com/app/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('2')
+#8 /home2/usoabumg/public_html/gador.factozz.com/system/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('2')
+#9 /home2/usoabumg/public_html/gador.factozz.com/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 /home2/usoabumg/public_html/gador.factozz.com/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/gador.factozz.com/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/gador.factozz.com/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/gador.factozz.com/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/gador.factozz.com/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/gador.factozz.com/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/gador.factozz.com/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/gador.factozz.com/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/gador.factozz.com/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/gador.factozz.com/system/BaseModel.php(610): CodeIgniter\Model->doFind(true, '2')
+#5 /home2/usoabumg/public_html/gador.factozz.com/app/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('2')
+#6 /home2/usoabumg/public_html/gador.factozz.com/app/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('2')
+#7 /home2/usoabumg/public_html/gador.factozz.com/system/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('2')
+#8 /home2/usoabumg/public_html/gador.factozz.com/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#9 /home2/usoabumg/public_html/gador.factozz.com/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/gador.factozz.com/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/gador.factozz.com/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/gador.factozz.com/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-28 14:34:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: bodega/gestionarBodega/2]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+WHERE `bodegas`.`id_bodega` = :bodegas.id_bodega:', [...], false)
+ 3 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind(true, '2')
+ 5 APPPATH/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('2')
+ 6 APPPATH/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('2')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('2')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2026-01-28 14:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-28 14:34:15 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/gador.factozz.com/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/gador.factozz.com/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/gador.factozz.com/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/gador.factozz.com/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/gador.factozz.com/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/gador.factozz.com/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/gador.factozz.com/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home2/usoabumg/public_html/gador.factozz.com/app/Models/SubAperturasModel.php(28): CodeIgniter\BaseModel->findAll()
+#7 /home2/usoabumg/public_html/gador.factozz.com/app/Controllers/AdquisicionProductoTieneApp.php(56): App\Models\SubAperturasModel->getSubAperturaByIdApertura('30')
+#8 /home2/usoabumg/public_html/gador.factozz.com/system/CodeIgniter.php(933): App\Controllers\AdquisicionProductoTieneApp->cargar_sub_apertura('30')
+#9 /home2/usoabumg/public_html/gador.factozz.com/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdquisicionProductoTieneApp))
+#10 /home2/usoabumg/public_html/gador.factozz.com/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/gador.factozz.com/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/gador.factozz.com/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/gador.factozz.com/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/gador.factozz.com/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/gador.factozz.com/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/gador.factozz.com/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/gador.factozz.com/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/gador.factozz.com/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/gador.factozz.com/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home2/usoabumg/public_html/gador.factozz.com/app/Models/SubAperturasModel.php(28): CodeIgniter\BaseModel->findAll()
+#6 /home2/usoabumg/public_html/gador.factozz.com/app/Controllers/AdquisicionProductoTieneApp.php(56): App\Models\SubAperturasModel->getSubAperturaByIdApertura('30')
+#7 /home2/usoabumg/public_html/gador.factozz.com/system/CodeIgniter.php(933): App\Controllers\AdquisicionProductoTieneApp->cargar_sub_apertura('30')
+#8 /home2/usoabumg/public_html/gador.factozz.com/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdquisicionProductoTieneApp))
+#9 /home2/usoabumg/public_html/gador.factozz.com/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/gador.factozz.com/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/gador.factozz.com/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/gador.factozz.com/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-28 14:34:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: adquisicion_producto_tiene_app/cargar_sub_apertura/30]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sub_aperturas`
+WHERE `id_apertura` = :id_apertura:
+AND `estado_sub_apertura` = :estado_sub_apertura:', [...], false)
+ 3 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/SubAperturasModel.php(28): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/AdquisicionProductoTieneApp.php(56): App\Models\SubAperturasModel->getSubAperturaByIdApertura('30')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdquisicionProductoTieneApp->cargar_sub_apertura('30')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdquisicionProductoTieneApp))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2026-01-28 14:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 15:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 15:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

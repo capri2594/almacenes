@@ -1,0 +1,208 @@
+INFO - 2024-11-29 08:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:15:52 --> CSRF token verified.
+INFO - 2024-11-29 08:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:16:17 --> CSRF token verified.
+INFO - 2024-11-29 08:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-29 08:17:02 --> ErrorException: Undefined array key "orden_compra"
+[Method: GET, Route: ingreso/subir/2]
+in APPPATH\Views\nro_adquisicion\subir.php on line 11.
+ 1 APPPATH\Views\nro_adquisicion\subir.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "orden_compra"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/subir', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(172): view('nro_adquisicion/subir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->subir('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-29 08:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-29 08:17:23 --> ErrorException: Undefined array key "orden_compra"
+[Method: GET, Route: ingreso/subir/2]
+in APPPATH\Views\nro_adquisicion\subir.php on line 11.
+ 1 APPPATH\Views\nro_adquisicion\subir.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "orden_compra"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/subir', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(172): view('nro_adquisicion/subir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->subir('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-29 08:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-29 08:20:26 --> ErrorException: Undefined array key "orden_compra"
+[Method: GET, Route: ingreso/subir/2]
+in APPPATH\Views\nro_adquisicion\subir.php on line 11.
+ 1 APPPATH\Views\nro_adquisicion\subir.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "orden_compra"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/subir', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(172): view('nro_adquisicion/subir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->subir('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-29 08:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-29 08:20:32 --> ErrorException: Undefined array key "orden_compra"
+[Method: GET, Route: ingreso/subir/2]
+in APPPATH\Views\nro_adquisicion\subir.php on line 11.
+ 1 APPPATH\Views\nro_adquisicion\subir.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "orden_compra"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/subir', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(172): view('nro_adquisicion/subir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->subir('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-29 08:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-29 08:20:40 --> ErrorException: Undefined array key "doc_respaldo"
+[Method: GET, Route: ingreso/subir/2]
+in APPPATH\Views\nro_adquisicion\subir.php on line 14.
+ 1 APPPATH\Views\nro_adquisicion\subir.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_respaldo"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/subir', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(172): view('nro_adquisicion/subir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->subir('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-29 08:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-29 08:21:28 --> ErrorException: Undefined array key "orden_compra"
+[Method: GET, Route: ingreso/subir/2]
+in APPPATH\Views\nro_adquisicion\subir.php on line 11.
+ 1 APPPATH\Views\nro_adquisicion\subir.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "orden_compra"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/subir', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(172): view('nro_adquisicion/subir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->subir('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-29 08:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-29 08:22:03 --> ErrorException: Undefined array key "doc_respaldo"
+[Method: GET, Route: ingreso/subir/2]
+in APPPATH\Views\nro_adquisicion\subir.php on line 14.
+ 1 APPPATH\Views\nro_adquisicion\subir.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_respaldo"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/subir', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(172): view('nro_adquisicion/subir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->subir('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-29 08:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-29 08:23:38 --> ErrorException: Undefined array key "doc_respaldo"
+[Method: GET, Route: ingreso/eliminar_pdf/2]
+in APPPATH\Controllers\NroAdquisicion.php on line 220.
+ 1 APPPATH\Controllers\NroAdquisicion.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_respaldo"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\NroAdquisicion.php', 220)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->eliminar_pdf('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-29 08:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-29 08:27:44 --> ErrorException: Undefined array key "doc_respaldo"
+[Method: GET, Route: ingreso/eliminar_pdf/2]
+in APPPATH\Controllers\NroAdquisicion.php on line 220.
+ 1 APPPATH\Controllers\NroAdquisicion.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_respaldo"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\NroAdquisicion.php', 220)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->eliminar_pdf('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-29 08:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-29 08:28:57 --> ErrorException: Undefined array key "doc_respaldo"
+[Method: GET, Route: ingreso/eliminar_pdf/2]
+in APPPATH\Controllers\NroAdquisicion.php on line 220.
+ 1 APPPATH\Controllers\NroAdquisicion.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_respaldo"', 'C:\\laragon\\www\\gador_warehouse\\app\\Controllers\\NroAdquisicion.php', 220)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->eliminar_pdf('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-29 08:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-29 08:32:57 --> ErrorException: Undefined array key "doc_upload"
+[Method: GET, Route: ingreso/subir/2]
+in APPPATH\Views\nro_adquisicion\subir.php on line 14.
+ 1 APPPATH\Views\nro_adquisicion\subir.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_upload"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\subir.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/subir', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(172): view('nro_adquisicion/subir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->subir('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-29 08:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:35:37 --> CSRF token verified.
+INFO - 2024-11-29 08:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-29 08:35:37 --> ErrorException: Undefined array key "orden_compra"
+[Method: POST, Route: ingreso/accion_subir/2]
+in APPPATH\Views\nro_adquisicion\upload_success.php on line 11.
+ 1 APPPATH\Views\nro_adquisicion\upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "orden_compra"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\upload_success.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\upload_success.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/upload_success', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(211): view('nro_adquisicion/upload_success', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->upload('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-29 08:36:16 --> CSRF token verified.
+INFO - 2024-11-29 08:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

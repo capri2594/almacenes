@@ -1,0 +1,83 @@
+CRITICAL - 2025-08-15 08:29:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-08-15 12:18:23 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /home2/usoabumg/public_html/oruro.site/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home2/usoabumg/public_html/oruro.site/app/Models/OrdenModel.php(61): CodeIgniter\Model->insert(Array)
+#8 /home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php(78): App\Models\OrdenModel->createOrden(Array)
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Orden->crear()
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+#11 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#5 /home2/usoabumg/public_html/oruro.site/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/OrdenModel.php(61): CodeIgniter\Model->insert(Array)
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php(78): App\Models\OrdenModel->createOrden(Array)
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Orden->crear()
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-08-15 12:18:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: orden/crear]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ordenes` (`recurso_username`, `fecha_orden`, `estado_orden`, `obj_glosa`, `glosa`, `id_bodega`, `log_orden`) VALUES (:recurso_username:, :fecha_orden:, :estado_orden:, :obj_glosa:, :glosa:, :id_bodega:, :log_orden:)', [...], false)
+ 3 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH/Models/OrdenModel.php(61): CodeIgniter\Model->insert([...])
+ 7 APPPATH/Controllers/Orden.php(78): App\Models\OrdenModel->createOrden([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orden->crear()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-15 13:27:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden/editar/472]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-15 13:27:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte/catalogo_usuario]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

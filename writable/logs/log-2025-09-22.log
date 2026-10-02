@@ -1,0 +1,281 @@
+CRITICAL - 2025-09-22 08:37:34 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 08:37:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 08:37:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 08:37:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: bodega]
+in APPPATH/Controllers/Bodega.php on line 11.
+ 1 APPPATH/Controllers/Bodega.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php', 11)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Bodega->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 08:57:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 09:04:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 11:40:47 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/1]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 11:40:51 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/1]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 11:40:55 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/1]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 11:41:00 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/2]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('2')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 11:41:03 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/20]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('20')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 11:41:41 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/2]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('2')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 12:31:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 13:15:21 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/5]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('5')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 13:18:39 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/5]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('5')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 13:46:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: ingreso/1]
+in APPPATH/Controllers/NroAdquisicion.php on line 18.
+ 1 APPPATH/Controllers/NroAdquisicion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\NroAdquisicion->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 13:46:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: ingreso/1]
+in APPPATH/Controllers/NroAdquisicion.php on line 18.
+ 1 APPPATH/Controllers/NroAdquisicion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\NroAdquisicion->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 13:48:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: ingreso/1]
+in APPPATH/Controllers/NroAdquisicion.php on line 18.
+ 1 APPPATH/Controllers/NroAdquisicion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\NroAdquisicion->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 14:32:20 --> Error: Call to undefined function tipoDocumento()
+[Method: GET, Route: ingreso/1]
+in APPPATH/Views/nro_adquisicion/index.php on line 20.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/index', [], true)
+ 4 APPPATH/Controllers/NroAdquisicion.php(46): view('nro_adquisicion/index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NroAdquisicion->index('1')
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 17:12:37 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/1]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 17:12:46 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/1]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 17:12:50 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/2]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('2')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-22 17:12:53 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/20]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('20')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

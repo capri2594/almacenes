@@ -1,0 +1,1396 @@
+CRITICAL - 2025-09-23 08:50:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 08:50:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 08:50:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 08:50:04 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/IngresoSalidaItemsModel.php(37): CodeIgniter\BaseModel->first()
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/IngresoSalidaItems.php(45): App\Models\IngresoSalidaItemsModel->getIngresoSalidaItemsByIdIngresoSalidaItems('406')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\IngresoSalidaItems->eliminar('406')
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalidaItems))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/IngresoSalidaItemsModel.php(37): CodeIgniter\BaseModel->first()
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/IngresoSalidaItems.php(45): App\Models\IngresoSalidaItemsModel->getIngresoSalidaItemsByIdIngresoSalidaItems('406')
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\IngresoSalidaItems->eliminar('406')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalidaItems))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 08:50:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: ingreso_salida_items/eliminar/406]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ingreso_salida_items`
+WHERE `id_ingreso_salida_items` = :id_ingreso_salida_items:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/IngresoSalidaItemsModel.php(37): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/IngresoSalidaItems.php(45): App\Models\IngresoSalidaItemsModel->getIngresoSalidaItemsByIdIngresoSalidaItems('406')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\IngresoSalidaItems->eliminar('406')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalidaItems))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 08:50:05 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(34): CodeIgniter\BaseModel->paginate(100)
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->index()
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(34): CodeIgniter\BaseModel->paginate(100)
+#6 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->index()
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-09-23 08:50:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: bodega]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `bodegas`
+WHERE `recurso_username` = :recurso_username:', [...], false)
+ 3 SYSTEMPATH/Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH/BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH/Controllers/Bodega.php(34): CodeIgniter\BaseModel->paginate(100)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Bodega->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 08:50:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 08:50:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 09:30:42 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/5]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('5')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 09:36:35 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('1')
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('1')
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('1')
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('1')
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 09:36:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: bodega/gestionarBodega/1]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+WHERE `bodegas`.`id_bodega` = :bodegas.id_bodega:', [...], false)
+ 3 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('1')
+ 6 APPPATH/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('1')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('1')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 09:36:47 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('1')
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('1')
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('1')
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('1')
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 09:36:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: bodega/gestionarBodega/1]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+WHERE `bodegas`.`id_bodega` = :bodegas.id_bodega:', [...], false)
+ 3 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('1')
+ 6 APPPATH/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('1')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('1')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 09:36:48 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('1')
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('1')
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('1')
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('1')
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 09:36:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: bodega/gestionarBodega/1]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+WHERE `bodegas`.`id_bodega` = :bodegas.id_bodega:', [...], false)
+ 3 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('1')
+ 6 APPPATH/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('1')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('1')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 09:36:48 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('1')
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('1')
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('1')
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('1')
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 09:36:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: bodega/gestionarBodega/1]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bodegas`
+WHERE `bodegas`.`id_bodega` = :bodegas.id_bodega:', [...], false)
+ 3 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH/Models/BodegasModel.php(41): CodeIgniter\BaseModel->find('1')
+ 6 APPPATH/Controllers/Bodega.php(105): App\Models\BodegasModel->getBodega('1')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Bodega->gestionarBodega('1')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 09:36:48 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/AperturasModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/IngresoSalida.php(38): App\Models\AperturasModel->getAperturasHabilitadas()
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\IngresoSalida->index('1')
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalida))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/AperturasModel.php(23): CodeIgniter\BaseModel->findAll()
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/IngresoSalida.php(38): App\Models\AperturasModel->getAperturasHabilitadas()
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\IngresoSalida->index('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalida))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 09:36:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: ingreso_salida/1]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `aperturas`
+WHERE `estado_apertura` = :estado_apertura:', [...], false)
+ 3 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/AperturasModel.php(23): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/IngresoSalida.php(38): App\Models\AperturasModel->getAperturasHabilitadas()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\IngresoSalida->index('1')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalida))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 09:41:19 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 09:41:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: ingreso/crear]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `nro_adquisicion`
+WHERE `id_bodega` = :id_bodega:
+ORDER BY `id_nro_adquisicion` DESC
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 09:41:19 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 09:41:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: ingreso/crear]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `nro_adquisicion`
+WHERE `id_bodega` = :id_bodega:
+ORDER BY `id_nro_adquisicion` DESC
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 09:41:20 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 09:41:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: ingreso/crear]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `nro_adquisicion`
+WHERE `id_bodega` = :id_bodega:
+ORDER BY `id_nro_adquisicion` DESC
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 09:41:20 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /home2/usoabumg/public_html/oruro.site/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home2/usoabumg/public_html/oruro.site/app/Models/OrdenModel.php(61): CodeIgniter\Model->insert(Array)
+#8 /home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php(78): App\Models\OrdenModel->createOrden(Array)
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Orden->crear()
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+#11 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#5 /home2/usoabumg/public_html/oruro.site/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/OrdenModel.php(61): CodeIgniter\Model->insert(Array)
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php(78): App\Models\OrdenModel->createOrden(Array)
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Orden->crear()
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-09-23 09:41:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: orden/crear]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ordenes` (`recurso_username`, `fecha_orden`, `estado_orden`, `obj_glosa`, `glosa`, `id_bodega`, `log_orden`) VALUES (:recurso_username:, :fecha_orden:, :estado_orden:, :obj_glosa:, :glosa:, :id_bodega:, :log_orden:)', [...], false)
+ 3 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH/Models/OrdenModel.php(61): CodeIgniter\Model->insert([...])
+ 7 APPPATH/Controllers/Orden.php(78): App\Models\OrdenModel->createOrden([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orden->crear()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 09:41:20 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/SubAperturasModel.php(28): CodeIgniter\BaseModel->findAll()
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(312): App\Models\SubAperturasModel->getSubAperturaByIdApertura('23')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->cargar_sub_apertura('23')
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/SubAperturasModel.php(28): CodeIgniter\BaseModel->findAll()
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(312): App\Models\SubAperturasModel->getSubAperturaByIdApertura('23')
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->cargar_sub_apertura('23')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 09:41:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: ingreso/cargar_sub_apertura/23]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sub_aperturas`
+WHERE `id_apertura` = :id_apertura:
+AND `estado_sub_apertura` = :estado_sub_apertura:', [...], false)
+ 3 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/SubAperturasModel.php(28): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/NroAdquisicion.php(312): App\Models\SubAperturasModel->getSubAperturaByIdApertura('23')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NroAdquisicion->cargar_sub_apertura('23')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 09:41:21 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 09:41:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: ingreso/crear]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `nro_adquisicion`
+WHERE `id_bodega` = :id_bodega:
+ORDER BY `id_nro_adquisicion` DESC
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 09:41:24 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(34): CodeIgniter\BaseModel->paginate(100)
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->index()
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(34): CodeIgniter\BaseModel->paginate(100)
+#6 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->index()
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-09-23 09:41:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: bodega]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `bodegas`
+WHERE `recurso_username` = :recurso_username:', [...], false)
+ 3 SYSTEMPATH/Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH/BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH/Controllers/Bodega.php(34): CodeIgniter\BaseModel->paginate(100)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Bodega->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 14:35:46 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /home2/usoabumg/public_html/oruro.site/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home2/usoabumg/public_html/oruro.site/app/Models/IngresoSalidaItemsModel.php(52): CodeIgniter\Model->insert(Array)
+#8 /home2/usoabumg/public_html/oruro.site/app/Controllers/IngresoSalidaItems.php(40): App\Models\IngresoSalidaItemsModel->createIngresoSalidaItems(Array)
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\IngresoSalidaItems->add('2', '83')
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalidaItems))
+#11 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#5 /home2/usoabumg/public_html/oruro.site/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/IngresoSalidaItemsModel.php(52): CodeIgniter\Model->insert(Array)
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/IngresoSalidaItems.php(40): App\Models\IngresoSalidaItemsModel->createIngresoSalidaItems(Array)
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\IngresoSalidaItems->add('2', '83')
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalidaItems))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-09-23 14:35:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: ingreso_salida_items/add/2/83]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ingreso_salida_items` (`id_bodega`, `id_unidad_medida`, `nombre_producto`, `id_partida`, `id_ingreso_salida`, `cantidad`, `precio_unitario`) VALUES (:id_bodega:, :id_unidad_medida:, :nombre_producto:, :id_partida:, :id_ingreso_salida:, :cantidad:, :precio_unitario:)', [...], false)
+ 3 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH/Models/IngresoSalidaItemsModel.php(52): CodeIgniter\Model->insert([...])
+ 7 APPPATH/Controllers/IngresoSalidaItems.php(40): App\Models\IngresoSalidaItemsModel->createIngresoSalidaItems([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\IngresoSalidaItems->add('2', '83')
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalidaItems))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 14:35:47 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /home2/usoabumg/public_html/oruro.site/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home2/usoabumg/public_html/oruro.site/app/Models/IngresoSalidaItemsModel.php(52): CodeIgniter\Model->insert(Array)
+#8 /home2/usoabumg/public_html/oruro.site/app/Controllers/IngresoSalidaItems.php(40): App\Models\IngresoSalidaItemsModel->createIngresoSalidaItems(Array)
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\IngresoSalidaItems->add('2', '83')
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalidaItems))
+#11 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#5 /home2/usoabumg/public_html/oruro.site/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/IngresoSalidaItemsModel.php(52): CodeIgniter\Model->insert(Array)
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/IngresoSalidaItems.php(40): App\Models\IngresoSalidaItemsModel->createIngresoSalidaItems(Array)
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\IngresoSalidaItems->add('2', '83')
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalidaItems))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-09-23 14:35:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: ingreso_salida_items/add/2/83]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ingreso_salida_items` (`id_bodega`, `id_unidad_medida`, `nombre_producto`, `id_partida`, `id_ingreso_salida`, `cantidad`, `precio_unitario`) VALUES (:id_bodega:, :id_unidad_medida:, :nombre_producto:, :id_partida:, :id_ingreso_salida:, :cantidad:, :precio_unitario:)', [...], false)
+ 3 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH/Models/IngresoSalidaItemsModel.php(52): CodeIgniter\Model->insert([...])
+ 7 APPPATH/Controllers/IngresoSalidaItems.php(40): App\Models\IngresoSalidaItemsModel->createIngresoSalidaItems([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\IngresoSalidaItems->add('2', '83')
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalidaItems))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 14:40:06 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /home2/usoabumg/public_html/oruro.site/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home2/usoabumg/public_html/oruro.site/app/Models/IngresoSalidaItemsModel.php(52): CodeIgniter\Model->insert(Array)
+#8 /home2/usoabumg/public_html/oruro.site/app/Controllers/IngresoSalidaItems.php(40): App\Models\IngresoSalidaItemsModel->createIngresoSalidaItems(Array)
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\IngresoSalidaItems->add('2', '83')
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalidaItems))
+#11 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#5 /home2/usoabumg/public_html/oruro.site/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/IngresoSalidaItemsModel.php(52): CodeIgniter\Model->insert(Array)
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/IngresoSalidaItems.php(40): App\Models\IngresoSalidaItemsModel->createIngresoSalidaItems(Array)
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\IngresoSalidaItems->add('2', '83')
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalidaItems))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-09-23 14:40:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: ingreso_salida_items/add/2/83]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ingreso_salida_items` (`id_bodega`, `id_unidad_medida`, `nombre_producto`, `id_partida`, `id_ingreso_salida`, `cantidad`, `precio_unitario`) VALUES (:id_bodega:, :id_unidad_medida:, :nombre_producto:, :id_partida:, :id_ingreso_salida:, :cantidad:, :precio_unitario:)', [...], false)
+ 3 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH/Models/IngresoSalidaItemsModel.php(52): CodeIgniter\Model->insert([...])
+ 7 APPPATH/Controllers/IngresoSalidaItems.php(40): App\Models\IngresoSalidaItemsModel->createIngresoSalidaItems([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\IngresoSalidaItems->add('2', '83')
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IngresoSalidaItems))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 14:40:06 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 14:40:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: ingreso/crear]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `nro_adquisicion`
+WHERE `id_bodega` = :id_bodega:
+ORDER BY `id_nro_adquisicion` DESC
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 14:40:07 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', 'usoabumg_gador_...', 'T@8^v7Xfc-1K', 'usoabumg_gador_...', 3306, '', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/usoabumg/public_html/oruro.site/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 /home2/usoabumg/public_html/oruro.site/app/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 14:40:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: ingreso/crear]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `nro_adquisicion`
+WHERE `id_bodega` = :id_bodega:
+ORDER BY `id_nro_adquisicion` DESC
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/NroAdquisicionModel.php(28): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/NroAdquisicion.php(71): App\Models\NroAdquisicionModel->getUltimoNroAdquisicion('1')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NroAdquisicion->crear()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 14:51:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 15:07:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 15:07:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: reporte]
+in APPPATH/Controllers/Reporte.php on line 17.
+ 1 APPPATH/Controllers/Reporte.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Reporte.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Reporte->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 16:00:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: orden/imprimir_solicitud_aprobada/723]
+in APPPATH/Controllers/Orden.php on line 18.
+ 1 APPPATH/Controllers/Orden.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Orden->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 16:55:54 --> mysqli_sql_exception: Table 'usoabumg_gador_warehouse.ordenes' doesn't exist in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(610): CodeIgniter\Model->doFind(true, '683')
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/OrdenModel.php(23): CodeIgniter\BaseModel->find('683')
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php(333): App\Models\OrdenModel->getOrden('683')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Orden->imprimir_solicitud_aprobada('683')
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-09-23 16:55:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'usoabumg_gador_warehouse.ordenes' doesn't exist
+[Method: GET, Route: orden/imprimir_solicitud_aprobada/683]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = :ordenes.id_orden:', [...], false)
+ 2 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind(true, '683')
+ 4 APPPATH/Models/OrdenModel.php(23): CodeIgniter\BaseModel->find('683')
+ 5 APPPATH/Controllers/Orden.php(333): App\Models\OrdenModel->getOrden('683')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orden->imprimir_solicitud_aprobada('683')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 16:55:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'usoabumg_gador_warehouse.ordenes' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = \'683\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = \'683\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = :ordenes.id_orden:', [...], false)
+ 4 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind(true, '683')
+ 6 APPPATH/Models/OrdenModel.php(23): CodeIgniter\BaseModel->find('683')
+ 7 APPPATH/Controllers/Orden.php(333): App\Models\OrdenModel->getOrden('683')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orden->imprimir_solicitud_aprobada('683')
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 16:55:54 --> [Caused by] mysqli_sql_exception: Table 'usoabumg_gador_warehouse.ordenes' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = \'683\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = \'683\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = \'683\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = :ordenes.id_orden:', [...], false)
+ 5 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind(true, '683')
+ 7 APPPATH/Models/OrdenModel.php(23): CodeIgniter\BaseModel->find('683')
+ 8 APPPATH/Controllers/Orden.php(333): App\Models\OrdenModel->getOrden('683')
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orden->imprimir_solicitud_aprobada('683')
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 16:55:59 --> mysqli_sql_exception: Table 'usoabumg_gador_warehouse.bodegas' doesn't exist in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 /home2/usoabumg/public_html/oruro.site/app/Controllers/Bodega.php(28): CodeIgniter\BaseModel->paginate(100)
+#7 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Bodega->index()
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-23 16:55:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'usoabumg_gador_warehouse.bodegas' doesn't exist
+[Method: GET, Route: bodega]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `bodegas`', [], false)
+ 2 SYSTEMPATH/Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH/BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH/Controllers/Bodega.php(28): CodeIgniter\BaseModel->paginate(100)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Bodega->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 16:55:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'usoabumg_gador_warehouse.bodegas' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `bodegas`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `bodegas`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `bodegas`', [], false)
+ 4 SYSTEMPATH/Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH/BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH/Controllers/Bodega.php(28): CodeIgniter\BaseModel->paginate(100)
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Bodega->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 16:55:59 --> [Caused by] mysqli_sql_exception: Table 'usoabumg_gador_warehouse.bodegas' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `bodegas`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `bodegas`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `bodegas`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `bodegas`', [], false)
+ 5 SYSTEMPATH/Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH/BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH/Controllers/Bodega.php(28): CodeIgniter\BaseModel->paginate(100)
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Bodega->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bodega))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-23 16:56:01 --> mysqli_sql_exception: Table 'usoabumg_gador_warehouse.ordenes' doesn't exist in /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php:310
+Stack trace:
+#0 /home2/usoabumg/public_html/oruro.site/system/Database/MySQLi/Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/usoabumg/public_html/oruro.site/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/usoabumg/public_html/oruro.site/system/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/usoabumg/public_html/oruro.site/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/usoabumg/public_html/oruro.site/system/BaseModel.php(610): CodeIgniter\Model->doFind(true, '683')
+#6 /home2/usoabumg/public_html/oruro.site/app/Models/OrdenModel.php(23): CodeIgniter\BaseModel->find('683')
+#7 /home2/usoabumg/public_html/oruro.site/app/Controllers/Orden.php(333): App\Models\OrdenModel->getOrden('683')
+#8 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(933): App\Controllers\Orden->imprimir_solicitud_aprobada('683')
+#9 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+#10 /home2/usoabumg/public_html/oruro.site/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home2/usoabumg/public_html/oruro.site/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home2/usoabumg/public_html/oruro.site/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home2/usoabumg/public_html/oruro.site/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-09-23 16:56:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'usoabumg_gador_warehouse.ordenes' doesn't exist
+[Method: GET, Route: orden/imprimir_solicitud_aprobada/683]
+in SYSTEMPATH/Database/BaseConnection.php on line 686.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = :ordenes.id_orden:', [...], false)
+ 2 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind(true, '683')
+ 4 APPPATH/Models/OrdenModel.php(23): CodeIgniter\BaseModel->find('683')
+ 5 APPPATH/Controllers/Orden.php(333): App\Models\OrdenModel->getOrden('683')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orden->imprimir_solicitud_aprobada('683')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 16:56:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'usoabumg_gador_warehouse.ordenes' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 315.
+ 1 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = \'683\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = \'683\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = :ordenes.id_orden:', [...], false)
+ 4 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind(true, '683')
+ 6 APPPATH/Models/OrdenModel.php(23): CodeIgniter\BaseModel->find('683')
+ 7 APPPATH/Controllers/Orden.php(333): App\Models\OrdenModel->getOrden('683')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orden->imprimir_solicitud_aprobada('683')
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 16:56:01 --> [Caused by] mysqli_sql_exception: Table 'usoabumg_gador_warehouse.ordenes' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(310): mysqli->query('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = \'683\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = \'683\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = \'683\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ordenes`
+WHERE `ordenes`.`id_orden` = :ordenes.id_orden:', [...], false)
+ 5 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind(true, '683')
+ 7 APPPATH/Models/OrdenModel.php(23): CodeIgniter\BaseModel->find('683')
+ 8 APPPATH/Controllers/Orden.php(333): App\Models\OrdenModel->getOrden('683')
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orden->imprimir_solicitud_aprobada('683')
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orden))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 17:46:08 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/5]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('5')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 17:46:13 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/2]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('2')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 17:46:23 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/1]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 17:46:50 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/1]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-23 17:46:57 --> ErrorException: Undefined variable $bodega_id
+[Method: GET, Route: reporte/imprimir_catalogo_usuario/5]
+in APPPATH/Views/reporte/imprimir_catalogo.php on line 11.
+ 1 APPPATH/Views/reporte/imprimir_catalogo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bodega_id', '/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php', 11)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/usoabumg/public_html/oruro.site/app/Views/reporte/imprimir_catalogo.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('reporte/imprimir_catalogo', [], true)
+ 5 APPPATH/Controllers/Reporte.php(244): view('reporte/imprimir_catalogo', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reporte->imprimir_catalogo_usuario('5')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

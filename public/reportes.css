@@ -1,0 +1,85 @@
+table {
+border-collapse: collapse;
+}
+
+.encabezado table {
+	width: 100%;
+	border: none;
+	background-color: #fff;
+	font-size: 7px;
+}
+
+.contenido table td {
+	border: 1px solid #ddd;
+	font-size: 9px;
+	padding: .3em;
+}
+
+.destino {
+	font-size: 9px;
+}
+
+.contenido table tr:last-child td {
+	border-bottom: 1px solid #ddd;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+.derecha {
+	text-align: right;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+caption {
+	font-weight: bold;
+	font-size: small;
+	padding: .5em;
+}
+.negrita {
+	font-weight: bold;
+}
+.container {
+	display: inline-flex;
+	justify-content: start;
+	align-items: center;
+}
+.container-qr {
+	display: 1;
+	justify-content: end;
+	align-items:end;
+}
+.image-container{
+	object-fit: contain;
+	
+	text-align: left;
+}
+
+.image-qr-container{
+	object-fit: contain;
+	text-align: right;
+}
+
+.text-container {
+	flex: 1;
+	padding: 10px;
+	text-align: left;
+}
+
+img {
+	max-width: 50px;
+	height: auto;
+}        
+.container-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: large;
+	font-weight: bold;
+	margin-top: -2em;
+}

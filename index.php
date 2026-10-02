@@ -1,0 +1,1 @@
+<?php header("Location: https://almacenes.oruro.gob.bo/public/"); ?>

@@ -1,0 +1,472 @@
+INFO - 2024-11-22 00:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:53:31 --> CSRF token verified.
+INFO - 2024-11-22 00:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-22 00:58:34 --> ErrorException: Undefined array key "pedido"
+[Method: GET, Route: ingreso/editar/1]
+in APPPATH\Views\nro_adquisicion\editar.php on line 31.
+ 1 APPPATH\Views\nro_adquisicion\editar.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pedido"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\editar.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/editar', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(104): view('nro_adquisicion/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 00:59:41 --> CSRF token verified.
+INFO - 2024-11-22 00:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 00:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-22 01:01:57 --> ErrorException: Undefined array key "pedido"
+[Method: GET, Route: ingreso/editar/2]
+in APPPATH\Views\nro_adquisicion\editar.php on line 31.
+ 1 APPPATH\Views\nro_adquisicion\editar.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pedido"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\editar.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/editar', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(104): view('nro_adquisicion/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-22 01:03:43 --> ErrorException: Undefined array key "pedido"
+[Method: GET, Route: ingreso/editar/2]
+in APPPATH\Views\nro_adquisicion\editar.php on line 31.
+ 1 APPPATH\Views\nro_adquisicion\editar.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pedido"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\editar.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/editar', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(104): view('nro_adquisicion/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:12:10 --> CSRF token verified.
+INFO - 2024-11-22 01:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-22 01:12:10 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 129.
+ 1 APPPATH\Controllers\NroAdquisicion.php(129): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:12:10 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 130.
+ 1 APPPATH\Controllers\NroAdquisicion.php(130): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:12:19 --> CSRF token verified.
+INFO - 2024-11-22 01:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-22 01:12:19 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 129.
+ 1 APPPATH\Controllers\NroAdquisicion.php(129): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:12:19 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 130.
+ 1 APPPATH\Controllers\NroAdquisicion.php(130): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:12:26 --> CSRF token verified.
+INFO - 2024-11-22 01:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-22 01:12:26 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 129.
+ 1 APPPATH\Controllers\NroAdquisicion.php(129): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:12:26 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 130.
+ 1 APPPATH\Controllers\NroAdquisicion.php(130): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:12:57 --> CSRF token verified.
+INFO - 2024-11-22 01:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-22 01:12:57 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 129.
+ 1 APPPATH\Controllers\NroAdquisicion.php(129): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:12:57 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 130.
+ 1 APPPATH\Controllers\NroAdquisicion.php(130): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:16:05 --> CSRF token verified.
+INFO - 2024-11-22 01:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-22 01:16:05 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 124.
+ 1 APPPATH\Controllers\NroAdquisicion.php(124): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:16:05 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 125.
+ 1 APPPATH\Controllers\NroAdquisicion.php(125): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:16:05 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 126.
+ 1 APPPATH\Controllers\NroAdquisicion.php(126): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:16:05 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 127.
+ 1 APPPATH\Controllers\NroAdquisicion.php(127): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:16:05 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 128.
+ 1 APPPATH\Controllers\NroAdquisicion.php(128): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:16:05 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 129.
+ 1 APPPATH\Controllers\NroAdquisicion.php(129): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:16:05 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 130.
+ 1 APPPATH\Controllers\NroAdquisicion.php(130): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:16:05 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 131.
+ 1 APPPATH\Controllers\NroAdquisicion.php(131): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:16:05 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 132.
+ 1 APPPATH\Controllers\NroAdquisicion.php(132): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-22 01:16:05 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\NroAdquisicion.php on line 133.
+ 1 APPPATH\Controllers\NroAdquisicion.php(133): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-22 01:16:05 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gador_warehouse`.`nro_adquisicion`, CONSTRAINT `fk_adquisiciones_proveedores1` FOREIGN KEY (`id_proveedor`) REFERENCES `proveedores` (`id_proveedor`)) in C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\laragon\www\gador_warehouse\system\Database\MySQLi\Connection.php(310): mysqli->query('UPDATE `nro_adq...', 0)
+#1 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `nro_adq...')
+#2 C:\laragon\www\gador_warehouse\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `nro_adq...')
+#3 C:\laragon\www\gador_warehouse\system\Database\BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query('UPDATE `nro_adq...', Array, false)
+#4 C:\laragon\www\gador_warehouse\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\gador_warehouse\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\laragon\www\gador_warehouse\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\laragon\www\gador_warehouse\app\Models\NroAdquisicionModel.php(33): CodeIgniter\Model->update('2', Array)
+#8 C:\laragon\www\gador_warehouse\app\Controllers\NroAdquisicion.php(136): App\Models\NroAdquisicionModel->updateNroAdquisicion('2', Array)
+#9 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+#10 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+#11 C:\laragon\www\gador_warehouse\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\gador_warehouse\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\gador_warehouse\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\gador_warehouse\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-11-22 01:16:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`gador_warehouse`.`nro_adquisicion`, CONSTRAINT `fk_adquisiciones_proveedores1` FOREIGN KEY (`id_proveedor`) REFERENCES `proveedores` (`id_proveedor`))
+[Method: POST, Route: ingreso/actualizar/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query('UPDATE `nro_adquisicion` SET `fecha_adquisicion` = :fecha_adquisicion:, `id_proveedor` = :id_proveedor:, `id_apertura_general` = :id_apertura_general:, `hoja_ruta` = :hoja_ruta:, `tipo_documento` = :tipo_documento:, `nro_tipo_documento` = :nro_tipo_documento:, `doc_constancia` = :doc_constancia:, `nro_doc_constancia` = :nro_doc_constancia:, `observaciones` = :observaciones:, `tipo_adquisicion` = :tipo_adquisicion:, `log_nro_adquisicion` = :log_nro_adquisicion:
+WHERE `nro_adquisicion`.`id_nro_adquisicion` IN :nro_adquisicion.id_nro_adquisicion:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Models\NroAdquisicionModel.php(33): CodeIgniter\Model->update('2', [...])
+ 6 APPPATH\Controllers\NroAdquisicion.php(136): App\Models\NroAdquisicionModel->updateNroAdquisicion('2', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-22 01:16:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`gador_warehouse`.`nro_adquisicion`, CONSTRAINT `fk_adquisiciones_proveedores1` FOREIGN KEY (`id_proveedor`) REFERENCES `proveedores` (`id_proveedor`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `nro_adquisicion` SET `fecha_adquisicion` = \'\', `id_proveedor` = \'\', `id_apertura_general` = \'\', `hoja_ruta` = \'\', `tipo_documento` = \'\', `nro_tipo_documento` = \'\', `doc_constancia` = \'\', `nro_doc_constancia` = \'\', `observaciones` = \'\', `tipo_adquisicion` = \'\', `log_nro_adquisicion` = \'CREADO|22/11/2024 00:59:42|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:10|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:19|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:26|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:57|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:16:05|travelnestor03@gmail.com\'
+WHERE `nro_adquisicion`.`id_nro_adquisicion` IN (\'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `nro_adquisicion` SET `fecha_adquisicion` = \'\', `id_proveedor` = \'\', `id_apertura_general` = \'\', `hoja_ruta` = \'\', `tipo_documento` = \'\', `nro_tipo_documento` = \'\', `doc_constancia` = \'\', `nro_doc_constancia` = \'\', `observaciones` = \'\', `tipo_adquisicion` = \'\', `log_nro_adquisicion` = \'CREADO|22/11/2024 00:59:42|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:10|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:19|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:26|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:57|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:16:05|travelnestor03@gmail.com\'
+WHERE `nro_adquisicion`.`id_nro_adquisicion` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query('UPDATE `nro_adquisicion` SET `fecha_adquisicion` = :fecha_adquisicion:, `id_proveedor` = :id_proveedor:, `id_apertura_general` = :id_apertura_general:, `hoja_ruta` = :hoja_ruta:, `tipo_documento` = :tipo_documento:, `nro_tipo_documento` = :nro_tipo_documento:, `doc_constancia` = :doc_constancia:, `nro_doc_constancia` = :nro_doc_constancia:, `observaciones` = :observaciones:, `tipo_adquisicion` = :tipo_adquisicion:, `log_nro_adquisicion` = :log_nro_adquisicion:
+WHERE `nro_adquisicion`.`id_nro_adquisicion` IN :nro_adquisicion.id_nro_adquisicion:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Models\NroAdquisicionModel.php(33): CodeIgniter\Model->update('2', [...])
+ 8 APPPATH\Controllers\NroAdquisicion.php(136): App\Models\NroAdquisicionModel->updateNroAdquisicion('2', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-22 01:16:05 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gador_warehouse`.`nro_adquisicion`, CONSTRAINT `fk_adquisiciones_proveedores1` FOREIGN KEY (`id_proveedor`) REFERENCES `proveedores` (`id_proveedor`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('UPDATE `nro_adquisicion` SET `fecha_adquisicion` = \'\', `id_proveedor` = \'\', `id_apertura_general` = \'\', `hoja_ruta` = \'\', `tipo_documento` = \'\', `nro_tipo_documento` = \'\', `doc_constancia` = \'\', `nro_doc_constancia` = \'\', `observaciones` = \'\', `tipo_adquisicion` = \'\', `log_nro_adquisicion` = \'CREADO|22/11/2024 00:59:42|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:10|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:19|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:26|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:57|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:16:05|travelnestor03@gmail.com\'
+WHERE `nro_adquisicion`.`id_nro_adquisicion` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `nro_adquisicion` SET `fecha_adquisicion` = \'\', `id_proveedor` = \'\', `id_apertura_general` = \'\', `hoja_ruta` = \'\', `tipo_documento` = \'\', `nro_tipo_documento` = \'\', `doc_constancia` = \'\', `nro_doc_constancia` = \'\', `observaciones` = \'\', `tipo_adquisicion` = \'\', `log_nro_adquisicion` = \'CREADO|22/11/2024 00:59:42|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:10|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:19|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:26|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:57|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:16:05|travelnestor03@gmail.com\'
+WHERE `nro_adquisicion`.`id_nro_adquisicion` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `nro_adquisicion` SET `fecha_adquisicion` = \'\', `id_proveedor` = \'\', `id_apertura_general` = \'\', `hoja_ruta` = \'\', `tipo_documento` = \'\', `nro_tipo_documento` = \'\', `doc_constancia` = \'\', `nro_doc_constancia` = \'\', `observaciones` = \'\', `tipo_adquisicion` = \'\', `log_nro_adquisicion` = \'CREADO|22/11/2024 00:59:42|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:10|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:19|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:26|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:12:57|travelnestor03@gmail.com,MODIFICADO|22/11/2024 01:16:05|travelnestor03@gmail.com\'
+WHERE `nro_adquisicion`.`id_nro_adquisicion` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2509): CodeIgniter\Database\BaseConnection->query('UPDATE `nro_adquisicion` SET `fecha_adquisicion` = :fecha_adquisicion:, `id_proveedor` = :id_proveedor:, `id_apertura_general` = :id_apertura_general:, `hoja_ruta` = :hoja_ruta:, `tipo_documento` = :tipo_documento:, `nro_tipo_documento` = :nro_tipo_documento:, `doc_constancia` = :doc_constancia:, `nro_doc_constancia` = :nro_doc_constancia:, `observaciones` = :observaciones:, `tipo_adquisicion` = :tipo_adquisicion:, `log_nro_adquisicion` = :log_nro_adquisicion:
+WHERE `nro_adquisicion`.`id_nro_adquisicion` IN :nro_adquisicion.id_nro_adquisicion:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Models\NroAdquisicionModel.php(33): CodeIgniter\Model->update('2', [...])
+ 9 APPPATH\Controllers\NroAdquisicion.php(136): App\Models\NroAdquisicionModel->updateNroAdquisicion('2', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->actualizar('2')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:17:30 --> CSRF token verified.
+INFO - 2024-11-22 01:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:17:50 --> CSRF token verified.
+INFO - 2024-11-22 01:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:18:28 --> CSRF token verified.
+INFO - 2024-11-22 01:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:20:14 --> CSRF token verified.
+INFO - 2024-11-22 01:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:20:27 --> CSRF token verified.
+INFO - 2024-11-22 01:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:20:39 --> CSRF token verified.
+INFO - 2024-11-22 01:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:21:07 --> CSRF token verified.
+INFO - 2024-11-22 01:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-22 01:21:12 --> Error: Call to undefined function tiposDocumentos()
+[Method: GET, Route: ingreso/imprimir_ingreso_materiales/2]
+in APPPATH\Views\nro_adquisicion\imprimir_ingreso_materiales.php on line 55.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/imprimir_ingreso_materiales', [], true)
+ 4 APPPATH\Controllers\NroAdquisicion.php(159): view('nro_adquisicion/imprimir_ingreso_materiales', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->imprimir_ingreso_materiales('2')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-22 01:23:15 --> ErrorException: Undefined array key "tipo"
+[Method: GET, Route: ingreso/imprimir_ingreso_materiales/2]
+in APPPATH\Views\nro_adquisicion\imprimir_ingreso_materiales.php on line 60.
+ 1 APPPATH\Views\nro_adquisicion\imprimir_ingreso_materiales.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\imprimir_ingreso_materiales.php', 60)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\imprimir_ingreso_materiales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/imprimir_ingreso_materiales', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(159): view('nro_adquisicion/imprimir_ingreso_materiales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->imprimir_ingreso_materiales('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-22 01:24:09 --> ErrorException: Undefined array key "nro_documento"
+[Method: GET, Route: ingreso/imprimir_ingreso_materiales/2]
+in APPPATH\Views\nro_adquisicion\imprimir_ingreso_materiales.php on line 81.
+ 1 APPPATH\Views\nro_adquisicion\imprimir_ingreso_materiales.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nro_documento"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\imprimir_ingreso_materiales.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\imprimir_ingreso_materiales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/imprimir_ingreso_materiales', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(159): view('nro_adquisicion/imprimir_ingreso_materiales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->imprimir_ingreso_materiales('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-22 01:24:53 --> ErrorException: Undefined array key "pedido"
+[Method: GET, Route: ingreso/imprimir_ingreso_materiales/2]
+in APPPATH\Views\nro_adquisicion\imprimir_ingreso_materiales.php on line 91.
+ 1 APPPATH\Views\nro_adquisicion\imprimir_ingreso_materiales.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pedido"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\imprimir_ingreso_materiales.php', 91)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\imprimir_ingreso_materiales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/imprimir_ingreso_materiales', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(159): view('nro_adquisicion/imprimir_ingreso_materiales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->imprimir_ingreso_materiales('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-22 01:25:07 --> ErrorException: Undefined array key "orden_compra"
+[Method: GET, Route: ingreso/imprimir_ingreso_materiales/2]
+in APPPATH\Views\nro_adquisicion\imprimir_ingreso_materiales.php on line 95.
+ 1 APPPATH\Views\nro_adquisicion\imprimir_ingreso_materiales.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "orden_compra"', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\imprimir_ingreso_materiales.php', 95)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\imprimir_ingreso_materiales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/imprimir_ingreso_materiales', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(159): view('nro_adquisicion/imprimir_ingreso_materiales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->imprimir_ingreso_materiales('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-22 01:25:41 --> ErrorException: Undefined variable $destino
+[Method: GET, Route: ingreso/imprimir_ingreso_materiales/2]
+in APPPATH\Views\nro_adquisicion\imprimir_ingreso_materiales.php on line 104.
+ 1 APPPATH\Views\nro_adquisicion\imprimir_ingreso_materiales.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $destino', 'C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\imprimir_ingreso_materiales.php', 104)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gador_warehouse\\app\\Views\\nro_adquisicion\\imprimir_ingreso_materiales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nro_adquisicion/imprimir_ingreso_materiales', [], true)
+ 5 APPPATH\Controllers\NroAdquisicion.php(159): view('nro_adquisicion/imprimir_ingreso_materiales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NroAdquisicion->imprimir_ingreso_materiales('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NroAdquisicion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-22 01:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:56:29 --> CSRF token verified.
+INFO - 2024-11-22 01:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:57:29 --> CSRF token verified.
+INFO - 2024-11-22 01:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:57:51 --> CSRF token verified.
+INFO - 2024-11-22 01:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:59:42 --> CSRF token verified.
+INFO - 2024-11-22 01:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-22 01:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
