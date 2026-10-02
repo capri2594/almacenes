@@ -19,25 +19,27 @@
     <div class="row">
       <div class="col-md-12">
         <div class="bgc-white bd bdrs-3 p-20">
-        <div class="row mB-20 align-items-center">
-          <div class="col-md-3">
-            <?php if((session()->isLoggedIn['nivel']==1 || session()->isLoggedIn['nivel']==2) && (session()->isLoggedIn['estado_recurso']==1)):?>
-              <button type="button" class="btn cur-p btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#modal_estatico"><i class="ti-plus"></i> NUEVO</button>
-            <?php endif;?>
-          </div>
-          <div class="col-md-9">
-            <div class="d-flex justify-content-md-end align-items-center gap-2 flex-wrap mt-2 mt-md-0">
-              <div class="input-group" style="max-width: 400px;">
-                <span class="input-group-text bg-white"><i class="ti-search"></i></span>
-                <input type="text" id="filtroProductos" class="form-control" placeholder="Buscar por código, nombre, partida..." autocomplete="off">
-                <button class="btn btn-outline-secondary" type="button" id="btnLimpiarProductos" title="Limpiar"><i class="ti-close"></i></button>
+        <div class="toolbar-filtro">
+          <div class="row align-items-center g-2">
+            <div class="col-md-4">
+              <?php if((session()->isLoggedIn['nivel']==1 || session()->isLoggedIn['nivel']==2) && (session()->isLoggedIn['estado_recurso']==1)):?>
+                <button type="button" class="btn cur-p btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#modal_estatico"><i class="ti-plus"></i> NUEVO</button>
+              <?php endif;?>
+            </div>
+            <div class="col-md-8">
+              <div class="d-flex justify-content-md-end align-items-center gap-2 flex-wrap">
+                <div class="input-group input-busqueda-grupo" style="max-width: 400px;">
+                  <span class="input-group-text"><i class="ti-search"></i></span>
+                  <input type="text" class="form-control filtro-dinamico-auto" placeholder="Buscar por código, nombre, partida..." autocomplete="off" data-tabla="#tablaProductos" data-contador="#contadorProductos" data-noresult="#sinResultadosProd">
+                  <button class="btn btn-limpiar" type="button" title="Limpiar"><i class="ti-close"></i></button>
+                </div>
+                <span id="contadorProductos" class="badge-contador-tabla">Total: <?=count($productos)?></span>
               </div>
-              <span id="contadorProductos" class="badge bg-secondary py-2 px-3">Total: <?=count($productos)?></span>
             </div>
           </div>
         </div>
 
-          <table id="tablaProductos" class="table table-striped table-bordered table-hover">
+          <table id="tablaProductos" class="table table-striped table-bordered table-hover tabla-dinamica">
             <thead>
               <tr>
                 <th scope="col">N°</th>
@@ -57,7 +59,7 @@
               foreach ($productos as $key => $value):
                 $unid = $unidad->getUnidadMedida($value['id_unidad_medida']);
               ?>
-                <tr class="fila-producto">
+                <tr class="fila-datos fila-producto">
                   <td><?=$i++;?></td>
                   <td><strong><?=$value['codigo']?></strong></td>
                   <td><?=$value['id_partida']?></td>
@@ -234,47 +236,6 @@
 	.onSuccess(( event ) => {
     	event.currentTarget.submit();
 	});
-
-  // --- Filtro dinámico en tiempo real de Productos (Opción B) ---
-  $(document).ready(function() {
-    function filtrarProductos() {
-      let texto = ($('#filtroProductos').val() || '').toLowerCase().trim();
-      let total = $('#tablaProductos tbody tr.fila-producto').length;
-      let visibles = 0;
-
-      $('#tablaProductos tbody tr.fila-producto').each(function() {
-        let fila = $(this);
-        let contenido = fila.text().toLowerCase();
-
-        if (texto === '' || contenido.indexOf(texto) > -1) {
-          fila.show();
-          visibles++;
-        } else {
-          fila.hide();
-        }
-      });
-
-      if (visibles === 0 && total > 0) {
-        $('#sinResultadosProd').show();
-      } else {
-        $('#sinResultadosProd').hide();
-      }
-
-      if (texto !== '') {
-        $('#contadorProductos').text('Filtrados: ' + visibles + ' de ' + total);
-      } else {
-        $('#contadorProductos').text('Total: ' + total);
-      }
-    }
-
-    $('#filtroProductos').on('keyup input', filtrarProductos);
-
-    $('#btnLimpiarProductos').on('click', function() {
-      $('#filtroProductos').val('');
-      filtrarProductos();
-      $('#filtroProductos').focus();
-    });
-  });
 
 </script>
 

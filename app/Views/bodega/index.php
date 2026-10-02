@@ -6,20 +6,30 @@
     <div class="row">
       <div class="col-md-12">
         <div class="bgc-white bd bdrs-3 p-20">
-        <div class="mT-5 mB-30">
-          <div class="gap-10 peers">
-            <div class="peer">
-            <?php if((session()->isLoggedIn['nivel']==1) && (session()->isLoggedIn['estado_recurso']==1)):?>
-              <button type="button" class="btn cur-p btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#modal_estatico">NUEVO</button>
-            <?php endif;?>
-
+        <div class="toolbar-filtro">
+          <div class="row align-items-center g-2">
+            <div class="col-md-4">
+              <?php if((session()->isLoggedIn['nivel']==1) && (session()->isLoggedIn['estado_recurso']==1)):?>
+                <button type="button" class="btn cur-p btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#modal_estatico"><i class="ti-plus"></i> NUEVO</button>
+              <?php endif;?>
+            </div>
+            <div class="col-md-8">
+              <div class="d-flex justify-content-md-end align-items-center gap-2 flex-wrap">
+                <div class="input-group input-busqueda-grupo" style="max-width: 400px;">
+                  <span class="input-group-text"><i class="ti-search"></i></span>
+                  <input type="text" class="form-control filtro-dinamico-auto" placeholder="Buscar bodega, responsable..." autocomplete="off" data-tabla="#tablaBodegas" data-contador="#contadorBodegas" data-noresult="#sinResultadosBodegas">
+                  <button class="btn btn-limpiar" type="button" title="Limpiar"><i class="ti-close"></i></button>
+                </div>
+                <span id="contadorBodegas" class="badge-contador-tabla">Total: <?=count($bodegas)?></span>
+              </div>
             </div>
           </div>
         </div>
-          <table class="table table-striped table-bordered table-hover">
+
+          <table id="tablaBodegas" class="table table-striped table-bordered table-hover tabla-dinamica">
             <thead>
               <tr>
-                <th scope="col">ID</th>
+                <th scope="col">N°</th>
                 <th scope="col">NOMBRE</th>
                 <th scope="col">RESPONSABLE BODEGA</th>
                 <th scope="col">ESTADO</th>
@@ -29,10 +39,11 @@
             <tbody>
               <?php
               $estados = estados_acceso();
+              $i = 1;
               foreach ($bodegas as $key => $value): ?>
-                <tr>
-                  <td><?=$value['id_bodega']?></td>
-                  <td><button class="btn btn-link" onclick="location.href = '<?=base_url();?>bodega/gestionarBodega/<?=$value['id_bodega']?>'"><?=$value['nombre_bodega']?></button></td>
+                <tr class="fila-datos">
+                  <td><?=$i++?></td>
+                  <td><button class="btn btn-link fw-bold text-decoration-none" onclick="location.href = '<?=base_url();?>bodega/gestionarBodega/<?=$value['id_bodega']?>'"><?=$value['nombre_bodega']?></button></td>
                   <td><?=$value['recurso_username']?></td>
                   <td><?=$estados[$value['estado_bodega']]?></td>
                   <?php if((session()->isLoggedIn['nivel']==1) && (session()->isLoggedIn['estado_recurso']==1)):?>
@@ -42,6 +53,11 @@
                   <?php endif;?>
                 </tr>
               <?php endforeach?>
+              <tr id="sinResultadosBodegas" style="display:none;">
+                <td colspan="5" class="text-center py-4 text-muted">
+                  <i class="ti-info-alt me-1"></i> No se encontraron bodegas que coincidan con la búsqueda.
+                </td>
+              </tr>
             </tbody>
           </table>
           <?= $pager->links();?>

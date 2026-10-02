@@ -76,8 +76,25 @@
     <div class="row mt-3">
       <div class="col-md-12">
         <div class="bgc-white bd bdrs-3 p-20">
-          <caption>LISTA DE PRODUCTOS/ITEMS INGRESO Y SALIDA</caption>
-          <table class="table table-striped table-bordered table-hover">
+        <div class="toolbar-filtro">
+          <div class="row align-items-center g-2">
+            <div class="col-md-6">
+              <span class="fw-bold text-dark"><i class="ti-package me-1"></i> LISTA DE PRODUCTOS/ITEMS INGRESO Y SALIDA</span>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-md-end align-items-center gap-2 flex-wrap">
+                <div class="input-group input-busqueda-grupo" style="max-width: 350px;">
+                  <span class="input-group-text"><i class="ti-search"></i></span>
+                  <input type="text" class="form-control filtro-dinamico-auto" placeholder="Buscar por producto, partida..." autocomplete="off" data-tabla="#tablaIngresoSalidaItems" data-contador="#contadorIngresoSalidaItems" data-noresult="#sinResultadosIngresoSalidaItems">
+                  <button class="btn btn-limpiar" type="button" title="Limpiar"><i class="ti-close"></i></button>
+                </div>
+                <span id="contadorIngresoSalidaItems" class="badge-contador-tabla">Total: <?=count($ingreso_salida_items)?></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <table id="tablaIngresoSalidaItems" class="table table-striped table-bordered table-hover tabla-dinamica">
             <thead>
               <tr>
                 <th scope="col">N°</th>
@@ -99,10 +116,10 @@
                 foreach ($ingreso_salida_items as $key => $value):
                   $total += $value['cantidad']*$value['precio_unitario'];
               ?>
-                <tr>
+                <tr class="fila-datos">
                   <td><?=($i++)?></td>
                   <td><?=$value['id_partida']?></td>
-                  <td><?=$value['nombre_producto']?></td>
+                  <td><strong><?=$value['nombre_producto']?></strong></td>
                   <td><?=$objUnidadesMedida->getUnidadMedida($value['id_unidad_medida'])['nombre_unidad_medida']?></td>
                   <td style='text-align: right;'><?=number_format($value['cantidad'], 2, ',', '.')?></td>
                   <td style='text-align: right;'><?=number_format($value['precio_unitario'], 2, ',', '.')?></td>
@@ -114,6 +131,11 @@
                   <?php endif;?>
                 </tr>
               <?php endforeach?>
+              <tr id="sinResultadosIngresoSalidaItems" style="display:none;">
+                <td colspan="8" class="text-center py-4 text-muted">
+                  <i class="ti-info-alt me-1"></i> No se encontraron ítems que coincidan con la búsqueda.
+                </td>
+              </tr>
               <tr>
                 <td colspan="6" style='text-align: right; font-weight: bold;'>TOTAL:</td>
                 <td style='text-align: right; font-weight: bold;'><?=number_format($total, 2, ',', '.')?></td>

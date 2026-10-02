@@ -6,14 +6,25 @@
     <div class="row">
       <div class="col-md-12">
         <div class="bgc-white bd bdrs-3 p-20">
-        <div class="mT-5 mB-30">
-          <div class="gap-10 peers">
-            <div class="peer">
-              <button type="button" class="btn cur-p btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#modal_estatico">NUEVO</button>
+        <div class="toolbar-filtro">
+          <div class="row align-items-center g-2">
+            <div class="col-md-4">
+              <button type="button" class="btn cur-p btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#modal_estatico"><i class="ti-plus"></i> NUEVO</button>
+            </div>
+            <div class="col-md-8">
+              <div class="d-flex justify-content-md-end align-items-center gap-2 flex-wrap">
+                <div class="input-group input-busqueda-grupo" style="max-width: 400px;">
+                  <span class="input-group-text"><i class="ti-search"></i></span>
+                  <input type="text" class="form-control filtro-dinamico-auto" placeholder="Buscar por código, descripción..." autocomplete="off" data-tabla="#tablaPartidas" data-contador="#contadorPartidas" data-noresult="#sinResultadosPartidas">
+                  <button class="btn btn-limpiar" type="button" title="Limpiar"><i class="ti-close"></i></button>
+                </div>
+                <span id="contadorPartidas" class="badge-contador-tabla">Total: <?=count($partidas)?></span>
+              </div>
             </div>
           </div>
         </div>
-          <table class="table table-striped table-bordered table-hover">
+
+          <table id="tablaPartidas" class="table table-striped table-bordered table-hover tabla-dinamica">
             <thead>
               <tr>
                 <th scope="col">CÓDIGO</th>
@@ -27,8 +38,8 @@
                 $estados = estados_acceso();
                 $html='';
                 foreach ($partidas as $key => $ap){
-                  $html.= '<tr>
-                    <td>'.$ap['id_partida'].'</td>
+                  $html.= '<tr class="fila-datos">
+                    <td><strong>'.$ap['id_partida'].'</strong></td>
                     <td>'.$ap['descripcion'].'</td>
                     <td><button data-bs-toggle="modal" data-bs-target="#modal_estatico_editar" onclick="editar('.$ap['id_partida'].')" class="btn btn-warning btn-sm">Editar</button></td>
                     <td><a href="'.base_url('sub_partida/'.$ap['id_partida']).'" class="btn btn-primary btn-sm">Sub partida</a></td>
@@ -36,6 +47,11 @@
                 }
                 echo $html;
               ?>
+              <tr id="sinResultadosPartidas" style="display:none;">
+                <td colspan="4" class="text-center py-4 text-muted">
+                  <i class="ti-info-alt me-1"></i> No se encontraron partidas que coincidan con la búsqueda.
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

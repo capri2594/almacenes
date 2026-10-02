@@ -14,17 +14,28 @@
   <div class="row">
       <div class="col-md-12">
         <div class="bgc-white bd bdrs-3 p-20">
-        <div class="mT-5 mB-30">
-          <div class="gap-10 peers">
-            <div class="peer">
-              <button type="button" class="btn cur-p btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#modal_estatico">NUEVO</button>
+        <div class="toolbar-filtro">
+          <div class="row align-items-center g-2">
+            <div class="col-md-4">
+              <button type="button" class="btn cur-p btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#modal_estatico"><i class="ti-plus"></i> NUEVO</button>
+            </div>
+            <div class="col-md-8">
+              <div class="d-flex justify-content-md-end align-items-center gap-2 flex-wrap">
+                <div class="input-group input-busqueda-grupo" style="max-width: 400px;">
+                  <span class="input-group-text"><i class="ti-search"></i></span>
+                  <input type="text" class="form-control filtro-dinamico-auto" placeholder="Buscar por descripción..." autocomplete="off" data-tabla="#tablaSubPartidas" data-contador="#contadorSubPartidas" data-noresult="#sinResultadosSubPartidas">
+                  <button class="btn btn-limpiar" type="button" title="Limpiar"><i class="ti-close"></i></button>
+                </div>
+                <span id="contadorSubPartidas" class="badge-contador-tabla">Total: <?=count($sub_partidas)?></span>
+              </div>
             </div>
           </div>
         </div>
-          <table class="table table-striped table-bordered table-hover">
+
+          <table id="tablaSubPartidas" class="table table-striped table-bordered table-hover tabla-dinamica">
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col">N°</th>
                 <th scope="col">DESCRIPCIÓN</th>
                 <th scope="col">EDITAR</th>
               </tr>
@@ -34,14 +45,19 @@
                 $i=1;
                 $html='';
                 foreach ($sub_partidas as $key => $sub_partida){
-                  $html.= '<tr>
+                  $html.= '<tr class="fila-datos">
                     <td>'.$i++.'</td>
-                    <td>'.$sub_partida['descripcion'].'</td>
+                    <td><strong>'.$sub_partida['descripcion'].'</strong></td>
                     <td><button data-bs-toggle="modal" data-bs-target="#modal_estatico_editar" onclick="editar('.$sub_partida['id_rangos_partida'].')" class="btn btn-warning btn-sm">Editar</button></td>
-                  ';
+                  </tr>';
                 }
                 echo $html;
               ?>
+              <tr id="sinResultadosSubPartidas" style="display:none;">
+                <td colspan="3" class="text-center py-4 text-muted">
+                  <i class="ti-info-alt me-1"></i> No se encontraron sub partidas que coincidan con la búsqueda.
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

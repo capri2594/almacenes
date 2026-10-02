@@ -40,7 +40,25 @@
       <div class="col-md-12">
         <div class="bgc-white bd bdrs-3 p-20">
 
-          <table class="table table-striped table-bordered table-hover">
+        <div class="toolbar-filtro">
+          <div class="row align-items-center g-2">
+            <div class="col-md-6">
+              <span class="fw-bold text-dark"><i class="ti-package me-1"></i> ITEMS DEL INGRESO</span>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-md-end align-items-center gap-2 flex-wrap">
+                <div class="input-group input-busqueda-grupo" style="max-width: 350px;">
+                  <span class="input-group-text"><i class="ti-search"></i></span>
+                  <input type="text" class="form-control filtro-dinamico-auto" placeholder="Buscar por código, partida, descripción..." autocomplete="off" data-tabla="#tablaAdqProductos" data-contador="#contadorAdqProductos" data-noresult="#sinResultadosAdqProductos">
+                  <button class="btn btn-limpiar" type="button" title="Limpiar"><i class="ti-close"></i></button>
+                </div>
+                <span id="contadorAdqProductos" class="badge-contador-tabla">Total: <?=count($itemsAdquisicion)?></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <table id="tablaAdqProductos" class="table table-striped table-bordered table-hover tabla-dinamica">
             <thead>
               <tr>
                 <th scope="col">N°</th>
@@ -62,9 +80,9 @@
               foreach ($itemsAdquisicion as $key => $value):
                 $prod = $miProducto->find($value['id_producto']);
               ?>
-                <tr>
+                <tr class="fila-datos">
                   <td><?=$i++;?></td>
-                  <td><?=$prod['codigo'];?></td>
+                  <td><strong><?=$prod['codigo'];?></strong></td>
                   <td><?=$prod['id_partida'];?></td>
                   <td><?=$prod['nombre_producto'];?></td>
                   <td class="text-end"><?=number_format($value['cant_ingreso'],2,',','.');?></td>
@@ -84,12 +102,17 @@
                   
                 </tr>
               <?php endforeach?>
-                <tr>
-                  <th class="text-primary font-weight-bold" colspan="6">TOTAL</th>
-                  <th class="text-end text-primary font-weight-bold"><?=number_format($total,2,',','.');?></th>
-                  <th></th>
-                  <th></th>
-                </tr>
+              <tr id="sinResultadosAdqProductos" style="display:none;">
+                <td colspan="9" class="text-center py-4 text-muted">
+                  <i class="ti-info-alt me-1"></i> No se encontraron productos que coincidan con la búsqueda.
+                </td>
+              </tr>
+              <tr>
+                <th class="text-primary font-weight-bold" colspan="6">TOTAL</th>
+                <th class="text-end text-primary font-weight-bold"><?=number_format($total,2,',','.');?></th>
+                <th></th>
+                <th></th>
+              </tr>
             </tbody>
           </table>
           

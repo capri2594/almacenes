@@ -15,20 +15,33 @@
     <div class="row">
       <div class="col-md-12">
         <div class="bgc-white bd bdrs-3 p-20">
-        <div class="mT-5 mB-30">
-          <div class="gap-10 peers">
-            <div class="peer">
-              <?=$bodega['nombre_bodega']?>
+        <div class="toolbar-filtro">
+          <div class="row align-items-center g-2">
+            <div class="col-md-5">
+              <span class="badge bg-dark py-2 px-3 fs-6" style="height: 42px; display: inline-flex; align-items: center; border-radius: 8px;">
+                <i class="ti-home me-2"></i> <?=$bodega['nombre_bodega']?>
+              </span>
+            </div>
+            <div class="col-md-7">
+              <div class="d-flex justify-content-md-end align-items-center gap-2 flex-wrap">
+                <div class="input-group input-busqueda-grupo" style="max-width: 420px;">
+                  <span class="input-group-text"><i class="ti-search"></i></span>
+                  <input type="text" id="filtroAtender" class="form-control filtro-dinamico-auto" placeholder="Buscar por solicitante, glosa, N°..." autocomplete="off" data-tabla="#tablaAtender" data-contador="#contadorAtender" data-noresult="#sinResultadosAtender">
+                  <button class="btn btn-limpiar" type="button" title="Limpiar"><i class="ti-close"></i></button>
+                </div>
+                <span id="contadorAtender" class="badge-contador-tabla">Total: <?=count($ordenes)?></span>
+              </div>
             </div>
           </div>
         </div>
+
         <div class="table-responsive">
-          <table class="table table-striped table-bordered table-hover">
+          <table id="tablaAtender" class="table table-striped table-bordered table-hover tabla-dinamica">
             <thead>
               <tr>
                 <th scope="col">CORRELATIVO</th>
                 <th scope="col">BODEGA</th>
-                <th scope="col">FECHA CREACIÓN</th>
+                <th scope="col">DATO DE LA CREACIÓN</th>
                 <th scope="col">SOLICITANTE</th>
                 <th scope="col">OBJETO</th>
                 <th scope="col">JUSTIFICACIÓN</th>
@@ -48,14 +61,25 @@
                 foreach ($ordenes as $key => $value):
                   $bodega = $miBodega->getBodega($value['id_bodega']);
               ?>
-                <tr>
-                  <td><?=$value['contador']?></td>
+                <tr class="fila-datos">
+                  <td><strong>#<?=$value['contador']?></strong></td>
                   <td><?=$bodega['nombre_bodega']?></td>
                   <td><?=date('d/m/Y H:i:s', strtotime($value['fecha_orden']))?></td>
                   <td><?=$value['recurso_username']?></td>
                   <td><?=$value['obj_glosa']?></td>
                   <td><?=$value['glosa']?></td>
-                  <td><?=$estados_orden[$value['estado_orden']]?></td>
+                  <td>
+                    <?php
+                    switch ($value['estado_orden']) {
+                      case 1: echo '<span class="badge bg-secondary">GENERADO</span>'; break;
+                      case 2: echo '<span class="badge bg-warning text-dark">SOLICITADO</span>'; break;
+                      case 3: echo '<span class="badge bg-info text-dark">APROBADO</span>'; break;
+                      case 4: echo '<span class="badge bg-success">ATENDIDO</span>'; break;
+                      case 5: echo '<span class="badge bg-danger">ANULADO</span>'; break;
+                      default: echo '<span class="badge bg-light text-dark">OTRO</span>'; break;
+                    }
+                    ?>
+                  </td>
                   <?php
                     if (($bodega['atender_solicitud'] == 1) || (session()->isLoggedIn['nivel']==1)){
                         if($value['estado_orden']==2){
@@ -91,6 +115,11 @@
                   
                 </tr>
               <?php endforeach?>
+              <tr id="sinResultadosAtender" style="display:none;">
+                <td colspan="10" class="text-center py-4 text-muted">
+                  <i class="ti-info-alt me-1"></i> No se encontraron solicitudes que coincidan con la búsqueda.
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

@@ -245,6 +245,84 @@
         </footer>
       </div>
     </div>
+
+    <script>
+      // ========================================================
+      // HELPER GLOBAL: FILTRADO DINÁMICO EN TIEMPO REAL PARA TABLAS
+      // ========================================================
+      function inicializarFiltroTabla(inputSelector, tablaSelector, contadorSelector, estadoSelector, noResultSelector) {
+        var $input = $(inputSelector);
+        var $tabla = $(tablaSelector);
+        if (!$input.length || !$tabla.length) return;
+
+        function ejecutarFiltro() {
+          var texto = ($input.val() || '').toLowerCase().trim();
+          var estado = (estadoSelector && $(estadoSelector).length) ? ($(estadoSelector).val() || '').toLowerCase().trim() : '';
+          var $filas = $tabla.find('tbody tr.fila-datos');
+          var total = $filas.length;
+          var visibles = 0;
+
+          $filas.each(function() {
+            var $fila = $(this);
+            var contenido = $fila.text().toLowerCase();
+            var filaEstado = ($fila.data('estado') || '').toString().toLowerCase();
+
+            var coincideTexto = (texto === '' || contenido.indexOf(texto) > -1);
+            var coincideEstado = (estado === '' || filaEstado.indexOf(estado) > -1);
+
+            if (coincideTexto && coincideEstado) {
+              $fila.show();
+              visibles++;
+            } else {
+              $fila.hide();
+            }
+          });
+
+          if (noResultSelector && $(noResultSelector).length) {
+            if (visibles === 0 && total > 0) {
+              $(noResultSelector).show();
+            } else {
+              $(noResultSelector).hide();
+            }
+          }
+
+          if (contadorSelector && $(contadorSelector).length) {
+            if (texto !== '' || estado !== '') {
+              $(contadorSelector).text('Filtrados: ' + visibles + ' de ' + total);
+            } else {
+              $(contadorSelector).text('Total: ' + total);
+            }
+          }
+        }
+
+        $input.on('keyup input', ejecutarFiltro);
+        if (estadoSelector && $(estadoSelector).length) {
+          $(estadoSelector).on('change', ejecutarFiltro);
+        }
+
+        var $grupo = $input.closest('.input-busqueda-grupo');
+        $grupo.find('.btn-limpiar').on('click', function() {
+          $input.val('');
+          if (estadoSelector && $(estadoSelector).length) $(estadoSelector).val('');
+          ejecutarFiltro();
+          $input.focus();
+        });
+      }
+
+      $(document).ready(function() {
+        // Auto-activación para inputs con clase .filtro-dinamico-auto
+        $('.filtro-dinamico-auto').each(function() {
+          var $el = $(this);
+          inicializarFiltroTabla(
+            $el,
+            $el.data('tabla'),
+            $el.data('contador'),
+            $el.data('estado'),
+            $el.data('noresult')
+          );
+        });
+      });
+    </script>
   </body>
   <link rel="stylesheet" href="<?=base_url()?>style.css">
   <link rel="stylesheet" href="<?=base_url()?>select2.min.css">

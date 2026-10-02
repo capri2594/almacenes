@@ -156,7 +156,7 @@
           </div>
         <?php endif; ?>
 
-          <table id="tablaOrdenes" class="table table-striped table-bordered table-hover">
+          <table id="tablaOrdenes" class="table table-striped table-bordered table-hover tabla-dinamica">
             <thead>
               <tr>
                 <th scope="col">N°</th>

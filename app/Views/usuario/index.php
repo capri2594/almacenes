@@ -6,10 +6,28 @@
     <div class="row">
       <div class="col-md-12">
         <div class="bgc-white bd bdrs-3 p-20">
-          <table class="table table-striped table-bordered table-hover">
+        <div class="toolbar-filtro">
+          <div class="row align-items-center g-2">
+            <div class="col-md-6">
+              <span class="fw-bold text-dark"><i class="ti-user me-1"></i> GESTIÓN DE USUARIOS</span>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-md-end align-items-center gap-2 flex-wrap">
+                <div class="input-group input-busqueda-grupo" style="max-width: 380px;">
+                  <span class="input-group-text"><i class="ti-search"></i></span>
+                  <input type="text" class="form-control filtro-dinamico-auto" placeholder="Buscar por usuario, nombre, rol..." autocomplete="off" data-tabla="#tablaUsuarios" data-contador="#contadorUsuarios" data-noresult="#sinResultadosUsuarios">
+                  <button class="btn btn-limpiar" type="button" title="Limpiar"><i class="ti-close"></i></button>
+                </div>
+                <span id="contadorUsuarios" class="badge-contador-tabla">Total: <?=count($recursos)?></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <table id="tablaUsuarios" class="table table-striped table-bordered table-hover tabla-dinamica">
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col">N°</th>
                 <th scope="col">USUARIO</th>
                 <th scope="col">NOMBRE COMPLETO</th>
                 <th scope="col">NIVEL/ROL</th>
@@ -28,9 +46,9 @@
               $niveles = niveles_acceso();
               $estados = estados_acceso();
               foreach ($recursos as $key => $value): ?>
-                <tr>
+                <tr class="fila-datos">
                   <td><?=($i++)?></td>
-                  <td><?=$value['username']?></td>
+                  <td><strong><?=$value['username']?></strong></td>
                   <td><?=$value['nombre']?></td>
                   <td><?=$niveles[$value['nivel']];?></td>
                   <td><?=$estados[$value['estado_recurso']];?></td>
@@ -58,6 +76,11 @@
                   ?>
                 </tr>
               <?php endforeach?>
+              <tr id="sinResultadosUsuarios" style="display:none;">
+                <td colspan="8" class="text-center py-4 text-muted">
+                  <i class="ti-info-alt me-1"></i> No se encontraron usuarios que coincidan con la búsqueda.
+                </td>
+              </tr>
             </tbody>
           </table>
           <?= $pager->links();?>

@@ -21,3 +21,139 @@ td .texto-derecha{
 	background:no-repeat url('assets/static/images/bg-gral.jpg');
 	background-size: cover;
 }
+
+/* ========================================================
+   ESTILOS GLOBALES: BARRAS DE FILTRADO, BUSCADORES Y TABLAS
+   ======================================================== */
+.toolbar-filtro {
+  background: #f8fafc;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 22px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.input-busqueda-grupo {
+  border: 1.5px solid #64748b !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.input-busqueda-grupo:focus-within {
+  border-color: #0d6efd !important;
+  box-shadow: 0 0 0 3px rgba(13,110,253,0.18) !important;
+}
+
+.input-busqueda-grupo .input-group-text {
+  background: #f8fafc !important;
+  border: none !important;
+  color: #475569 !important;
+  font-size: 15px;
+  padding: 0 12px;
+}
+
+.input-busqueda-grupo .form-control {
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 14px !important;
+  color: #1e293b !important;
+  padding: 8px 12px;
+  height: 40px;
+}
+
+.input-busqueda-grupo .btn-limpiar {
+  border: none !important;
+  border-left: 1px solid #cbd5e1 !important;
+  background: #fff;
+  color: #64748b;
+  padding: 0 14px;
+  font-size: 14px;
+  transition: all 0.15s ease;
+}
+
+.input-busqueda-grupo .btn-limpiar:hover {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.select-filtro-estado {
+  border: 1.5px solid #64748b !important;
+  border-radius: 8px !important;
+  background-color: #fff !important;
+  color: #1e293b !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  height: 42px !important;
+  padding: 0 14px !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.select-filtro-estado:focus {
+  border-color: #0d6efd !important;
+  box-shadow: 0 0 0 3px rgba(13,110,253,0.18) !important;
+}
+
+.badge-contador-tabla {
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  font-size: 13.5px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  color: #ffffff !important;
+  border: 1.5px solid #0a58ca;
+  box-shadow: 0 2px 5px rgba(13,110,253,0.25);
+  white-space: nowrap;
+  letter-spacing: 0.3px;
+}
+
+.btn-accion-principal {
+  height: 42px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1.5px solid #0a58ca;
+  background: #0d6efd;
+  color: #fff !important;
+  box-shadow: 0 2px 4px rgba(13,110,253,0.2);
+  transition: all 0.15s ease;
+}
+
+.btn-accion-principal:hover {
+  background: #0b5ed7;
+  border-color: #084298;
+}
+
+.tabla-dinamica {
+  border: 1.5px solid #cbd5e1 !important;
+}
+
+.tabla-dinamica thead th {
+  background-color: #f1f5f9 !important;
+  color: #1e293b !important;
+  border-bottom: 2px solid #64748b !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  vertical-align: middle !important;
+}
+
+.tabla-dinamica tbody td {
+  vertical-align: middle !important;
+  border-color: #e2e8f0 !important;
+}
+
+.tabla-dinamica tbody tr:hover {
+  background-color: #f8fafc;
+}

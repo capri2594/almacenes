@@ -45,7 +45,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="bgc-white bd bdrs-3 p-20">
-          <table class="table table-striped table-bordered table-hover">
+          <table class="table table-striped table-bordered table-hover tabla-dinamica">
             <thead>
               <tr>
                 <th scope="col">N°</th>

@@ -41,18 +41,34 @@
       </div>
     </div>
 
-    <h4 class="c-grey-900 mt-3">ITEMS</h4>
     <div class="row">
       <div class="col-md-12">
         <div class="bgc-white bd bdrs-3 p-20">
+          <div class="toolbar-filtro">
+            <div class="row align-items-center g-2">
+              <div class="col-md-4">
+                <h5 class="m-0 fw-bold text-dark"><i class="ti-package me-1"></i> ITEMS DE LA SOLICITUD</h5>
+              </div>
+              <div class="col-md-8">
+                <div class="d-flex justify-content-md-end align-items-center gap-2 flex-wrap">
+                  <div class="input-group input-busqueda-grupo" style="max-width: 380px;">
+                    <span class="input-group-text"><i class="ti-search"></i></span>
+                    <input type="text" id="filtroItems" class="form-control filtro-dinamico-auto" placeholder="Buscar producto en la lista..." autocomplete="off" data-tabla="#tablaItemsOrden" data-contador="#contadorItems" data-noresult="#sinResultadosItems">
+                    <button class="btn btn-limpiar" type="button" title="Limpiar"><i class="ti-close"></i></button>
+                  </div>
+                  <span id="contadorItems" class="badge-contador-tabla">Total: <?=count($items_orden)?> ítems</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
-          <table class="table table-striped table-bordered table-hover">
+          <table id="tablaItemsOrden" class="table table-striped table-bordered table-hover tabla-dinamica">
             <thead>
               <tr>
                 <th scope="col">N°</th>
                 <th scope="col">ID SABS</th>
                 <th scope="col">DESCRIPCIÓN</th>
-                <th scope="col">CANT. REQUERIDA</th>
+                <th scope="col" class="text-end">CANT. REQUERIDA</th>
                 <th scope="col">ELIMINAR</th>
               </tr>
             </thead>
@@ -70,11 +86,11 @@
                 $prod = $objProductoItem->find($value['id_producto']);
                 $total+=$value['cant_requerida'];
               ?>
-                <tr>
+                <tr class="fila-datos">
                   <td><?=$i++;?></td>
-                  <td><?=$id_orden;?></td>
+                  <td><strong>#<?=$id_orden;?></strong></td>
                   <td><?=$prod['nombre_producto'];?></td>
-                  <td class="text-end"><?=number_format($value['cant_requerida'],2,',','.');?></td>
+                  <td class="text-end fw-bold"><?=number_format($value['cant_requerida'],2,',','.');?></td>
                   <?php if(session()->isLoggedIn['estado_recurso']==1):?>
                     <td><button onclick="eliminar(<?=$value['id_items_orden']?>)" class="btn btn-danger btn-sm">ELIMINAR</button></td>
                   <?php else:?>
@@ -82,7 +98,12 @@
                   <?php endif;?>
                 </tr>
               <?php endforeach?>
-                <tr>
+              <tr id="sinResultadosItems" style="display:none;">
+                <td colspan="5" class="text-center py-4 text-muted">
+                  <i class="ti-info-alt me-1"></i> No se encontraron productos que coincidan con la búsqueda.
+                </td>
+              </tr>
+                <tr style="background:#f1f5f9;">
                   <th class="text-primary font-weight-bold" colspan="3">TOTAL ITEMS</th>
                   <th class="text-end text-primary font-weight-bold"><?=number_format($total,2,',','.');?></th>
                   <th></th>

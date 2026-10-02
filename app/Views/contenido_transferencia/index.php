@@ -75,7 +75,25 @@
       <div class="col-md-12">
         <div class="bgc-white bd bdrs-3 p-20">
 
-          <table class="table table-striped table-bordered table-hover">
+        <div class="toolbar-filtro">
+          <div class="row align-items-center g-2">
+            <div class="col-md-6">
+              <span class="fw-bold text-dark"><i class="ti-list me-1"></i> ITEMS A TRANSFERIR</span>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-md-end align-items-center gap-2 flex-wrap">
+                <div class="input-group input-busqueda-grupo" style="max-width: 350px;">
+                  <span class="input-group-text"><i class="ti-search"></i></span>
+                  <input type="text" class="form-control filtro-dinamico-auto" placeholder="Buscar ítem..." autocomplete="off" data-tabla="#tablaContenidoTransf" data-contador="#contadorContenidoTransf" data-noresult="#sinResultadosContenidoTransf">
+                  <button class="btn btn-limpiar" type="button" title="Limpiar"><i class="ti-close"></i></button>
+                </div>
+                <span id="contadorContenidoTransf" class="badge-contador-tabla">Total: <?=count($items_transferencia)?></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <table id="tablaContenidoTransf" class="table table-striped table-bordered table-hover tabla-dinamica">
             <thead>
               <tr>
                 <th scope="col">N°</th>
@@ -92,7 +110,7 @@
                   $objProducto2 = new ProductoModel();
                   $producto_item = $objProducto2->getProducto($item['id_producto']);
 
-                  $html.='<tr>';
+                  $html.='<tr class="fila-datos">';
                   $html.='<td>'.($i++).'</td>';
                   $html.='<td>'.$producto_item['nombre_producto'].'</td>';
                   $html.='<td class="text-end">'.$item['cantidad_transferencia'].'</td>';
@@ -105,6 +123,11 @@
                 }
                 echo $html;
               ?>
+              <tr id="sinResultadosContenidoTransf" style="display:none;">
+                <td colspan="4" class="text-center py-4 text-muted">
+                  <i class="ti-info-alt me-1"></i> No se encontraron ítems que coincidan con la búsqueda.
+                </td>
+              </tr>
             </tbody>
           </table>
           
