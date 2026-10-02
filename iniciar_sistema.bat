@@ -9,9 +9,9 @@ echo.
 
 set "PHP_BIN="
 
-if exist "C:\xampp\php\php.exe" set "PHP_BIN=C:\xampp\php\php.exe"
-if not defined PHP_BIN if exist "C:\php-8.2\php.exe" set "PHP_BIN=C:\php-8.2\php.exe"
+if exist "C:\php-8.2\php.exe" set "PHP_BIN=C:\php-8.2\php.exe"
 if not defined PHP_BIN if exist "C:\php-8.1\php.exe" set "PHP_BIN=C:\php-8.1\php.exe"
+if not defined PHP_BIN if exist "C:\xampp\php\php.exe" set "PHP_BIN=C:\xampp\php\php.exe"
 if not defined PHP_BIN if exist "C:\php\php.exe" set "PHP_BIN=C:\php\php.exe"
 if not defined PHP_BIN if exist "C:\tools\php\php.exe" set "PHP_BIN=C:\tools\php\php.exe"
 if not defined PHP_BIN (
